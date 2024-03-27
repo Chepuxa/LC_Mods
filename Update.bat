@@ -2,6 +2,7 @@
 set dirName=git
 set gitdir=..\%dirName%
 set path=%gitdir%\cmd;%path%
-git reset --hard HEAD
+git fetch --all
+git reset --hard origin/main
 git pull origin main
 pause
