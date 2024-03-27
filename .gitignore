@@ -1,2 +1,5 @@
 /*.log
 cache/
+config/controls/
+/cache/
+cache/*
