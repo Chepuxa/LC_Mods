@@ -1,0 +1,5 @@
+*.lethalbundle filter=lfs diff=lfs merge=lfs -text
+/plugins/LcOffice/lcoffice filter=lfs diff=lfs merge=lfs -text
+/plugins/PoolRooms/poolrooms filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+. !text !filter !merge !diff

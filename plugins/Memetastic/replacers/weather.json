@@ -1,0 +1,74 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "HighAndLowAltitudeBG:HighAudio:HighWind",
+            "sounds": [
+                {
+                    "sound": "Environment/Weather/HighWind-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Environment/Weather/HighWind-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "StrikeAudioTargeted:LightningStrike1",
+			    "StrikeAudioTargeted:LightningStrike2",
+			    "StrikeAudioTargeted:LightningStrike3",
+			    "StrikeAudioTargeted:LightningStrike4"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Weather/LightningStrike1-rare.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Weather/LightningStrike2-rare.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Weather/LightningStrike3-rare.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Weather/LightningStrike4-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "StaticWarningParticle:StormStaticElectricity",
+            "sounds": [
+                {
+                    "sound": "Environment/Weather/StormStaticElectricity-common.ogg",
+					"weight": 9
+                },
+                {
+                    "sound": "Environment/Weather/StormStaticElectricity-rare.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Environment/Weather/StormStaticElectricity-veryrare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "StrikeAudio:",
+			    "StrikeAudioB:"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Weather/Thunder2.ogg"
+                }
+            ]
+        }
+    ]
+}

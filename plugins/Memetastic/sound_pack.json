@@ -1,0 +1,4 @@
+{
+	"name": "Memetastic",
+	"load_on_startup": ["menu"]
+}

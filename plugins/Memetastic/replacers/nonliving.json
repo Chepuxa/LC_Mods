@@ -1,0 +1,105 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Gunfire:TurretActivate",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretActivate.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BerserkAudio:TurretBerserkMode",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretBerserkMode.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Gunfire:TurretDeactivate",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretDeactivate.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Gunfire:TurretFire",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretFire.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "GunfireFar:TurretFireDistance",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretFireDistance.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Gunfire:TurretSeePlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Turret/TurretSeePlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Landmine:MineBeep",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineBeep.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Landmine:MineDetonate",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonate.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonate2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Landmine:MineDetonateDistance",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonateDistance.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonateDistance2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Landmine:MineTrigger",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineTrigger.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Landmine:PressLandmine",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/PressLandmine.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MaskedPlayerEnemy:CreatureSFX:MaskAttackPlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskAttackPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MaskedPlayerEnemy:CreatureSFX:MaskFaceLightUp",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskFaceLightUp.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MaskedPlayerEnemy:CreatureSFX:MaskPuke",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskPuke.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "ComedyMask:MaskLaugh1",
+				"TragedyMask:MaskLaugh1",
+			    "ComedyMask:MaskLaugh2",
+				"TragedyMask:MaskLaugh2",
+			    "ComedyMask:MaskLaugh3",
+				"TragedyMask:MaskLaugh3",
+				"ComedyMask:Laugh1",
+				"ComedyMask:Laugh1_0",
+				"ComedyMask:Laugh2"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskLaugh1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskLaugh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskLaugh3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "ComedyMask:MaskCry1",
+				"TragedyMask:MaskCry1",
+			    "ComedyMask:MaskCry2",
+				"TragedyMask:MaskCry2",
+			    "ComedyMask:MaskCry3",
+				"TragedyMask:MaskCry3",
+			    "ComedyMask:MaskCry4",
+				"TragedyMask:MaskCry4"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskCry1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

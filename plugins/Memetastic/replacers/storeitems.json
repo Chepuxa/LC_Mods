@@ -1,0 +1,385 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "Boombox:BoomboxMusic1",
+			    "Boombox:BoomboxMusic2",
+			    "Boombox:BoomboxMusic3",
+			    "Boombox:BoomboxMusic4",
+			    "Boombox:BoomboxMusic5Zedfox"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Store/BoomboxMusic1.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Items/Store/BoomboxMusic2.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Items/Store/BoomboxMusic2-fratboyeh.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Items/Store/BoomboxMusic3.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Items/Store/BoomboxMusic4.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Items/Store/BoomboxMusic5Zedfox.ogg",
+					"weight": 10
+                }
+            ]
+        },
+        {
+            "matches": "*:DropShovel",
+            "matches": [
+			    "*:DropShovel",
+			    "YieldSign:DropMetalObject2",
+			    "StopSign:DropMetalObject2",
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Store/DropShovel.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtensionLadderItem:LadderAudio:ExtensionLadderAlarm",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ExtensionLadderAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtensionLadderItem:LadderAudio:ExtensionLadderExtend",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ExtensionLadderExtend.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtensionLadderItem:LadderAudio:ExtensionLadderLidOpen",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ExtensionLadderLidOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SoundManager:TempAudio1:ExtensionLadderMetalSlam",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ExtensionLadderMetalSlam.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtensionLadderItem:LadderAudio:ExtensionLadderShrink",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ExtensionLadderShrink.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtensionLadderItem:LadderAudio:FallingAir",
+            "sounds": [
+                {
+                    "sound": "Items/Store/FallingAir.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:FlashbangExplode",
+            "sounds": [
+                {
+                    "sound": "Items/Store/FlashbangExplode.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "StunGrenade:FlashbangPullPin",
+            "sounds": [
+                {
+                    "sound": "Items/Store/FlashbangPullPin.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FlashlightItem:FlashlightMiniOutOfBatteries",
+            "sounds": [
+                {
+                    "sound": "Items/Store/FlashlightMiniOutOfBatteries.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FlashlightItem:FlashlightOutOfBatteries",
+            "sounds": [
+                {
+                    "sound": "Items/Store/FlashlightOutOfBatteries.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BoosterPingAudio:GhostDevicePing",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GhostDevicePing-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GhostDevicePing-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GhostDevicePing-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "RadarBoosterDevice:RadarBoosterAudio:RadarBoosterFlash",
+            "sounds": [
+                {
+                    "sound": "Items/Store/RadarBoosterFlash.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:GrabClipboard",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GrabClipboard-2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabClipboard-4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabClipboard-94.ogg",
+					"weight": 12
+                }
+            ]
+        },
+        {
+            "matches": "*:GrabFlashlight",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GrabFlashlight-2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabFlashlight-4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabFlashlight-94.ogg",
+					"weight": 12
+                }
+            ]
+        },
+        {
+            "matches": "*:GrabShovel",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GrabShovel-2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabShovel-4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/GrabShovel-94.ogg",
+					"weight": 12
+                }
+            ]
+        },
+        {
+            "matches": "*:ShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ShovelPickUp-4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/ShovelPickUp-6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/ShovelPickUp-90.ogg",
+					"weight": 12
+                }
+            ]
+        },
+        {
+            "matches": "PatcherGunItem:GunMesh:GunOverheat",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GunOverheat.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PatcherGunItem:GunMesh:GunOverheatWarning",
+            "sounds": [
+                {
+                    "sound": "Items/Store/GunOverheatWarning.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ShockBeam1",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ShockBeam1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ShockBeam2",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ShockBeam2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TZPChemical:HoldTZP",
+            "sounds": [
+                {
+                    "sound": "Items/Store/HoldTZP-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/HoldTZP-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/HoldTZP-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ThrusterAudioClose:JetpackThrustStart",
+            "sounds": [
+                {
+                    "sound": "Items/Store/JetpackThrustStart.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BeepSFX:JetpackWarningBeep",
+            "sounds": [
+                {
+                    "sound": "Items/Store/JetpackWarningBeep.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BeepSFX:JetpackWarningBeep2",
+            "sounds": [
+                {
+                    "sound": "Items/Store/JetpackWarningBeep2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LockPickerItem:LockPickerFinish",
+            "sounds": [
+                {
+                    "sound": "Items/Store/LockPickerFinish.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LockPickerItem:LockPickerMount",
+            "sounds": [
+                {
+                    "sound": "Items/Store/LockPickerMount.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LockPickerItem:LockPickerPicking",
+            "sounds": [
+                {
+                    "sound": "Items/Store/LockPickerPicking.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LocalHelmetSFX:ReleaseHelmetGas",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ReleaseHelmetGas.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LocalHelmetSFX:ReleaseHelmetGas2",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ReleaseHelmetGas2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "*:ShovelHitDefault",
+			    "*:ShovelHitDefault2"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Store/ShovelHitDefault-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/ShovelHitDefault-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Store/ShovelHitDefault-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:ShovelSwing",
+            "sounds": [
+                {
+                    "sound": "Items/Store/ShovelSwing.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WalkieTalkie:WalkieTalkieCutOut",
+            "sounds": [
+                {
+                    "sound": "Items/Store/WalkieTalkieCutOut.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WalkieTalkie:WalkieTalkieTalkingNotHeld",
+            "sounds": [
+                {
+                    "sound": "Items/Store/WalkieTalkieTalkingNotHeld.ogg"
+                }
+            ]
+        }
+    ]
+}

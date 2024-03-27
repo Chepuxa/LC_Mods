@@ -1,0 +1,133 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MouthDogModel:VoiceAudio:Breathe1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogBreathe.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MouthDogModel:VoiceAudio:growl",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogGrowl-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogGrowl-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogGrowl-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MouthDogModel:VoiceAudio:KillPlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dog/DogKillPlayer-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MouthDogModel:VoiceAudio:Roar",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogRoar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MouthDog:Lunge1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogSlide.ogg"
+                }
+            ]
+        }
+    ]
+}

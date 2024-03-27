@@ -1,0 +1,465 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Music1:AlleyFactoryAmbiance",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/AlleyFactoryAmbience-common.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Environment/Ambience/AlleyFactoryAmbience-rare.ogg",
+					"weight": 3
+                }
+            ]
+        },
+        {
+            "matches": "BridgeAudio:BridgeCollapseV2",
+
+            "sounds": [
+                {
+                    "sound": "Environment/BridgeCollapseV2-common.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Environment/BridgeCollapseV2-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [ 
+			    "AmbienceSource:Bird1",
+				"AmbienceSource:Bird2",
+				"AmbienceSource:Bird3"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Bird2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Bird3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:BranchSnap1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/BranchSnap1.ogg"
+				}
+            ]
+        },
+        {
+            "matches": "AmbienceSource:BranchSnap2",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/BranchSnap2-whistle.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Misc/Silence.ogg",
+					"weight": 8
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:Clock1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Clock1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "AmbienceSource:Creak1",
+			    "AmbienceSource:Creak2",
+			    "AmbienceSource:Creak3",
+			    "AmbienceSource:Creak4",
+			    "AmbienceSource:Creak5",
+			    "AmbienceSource:Creak6",
+			    "AmbienceSource:Creak7",
+			    "AmbienceSource:Creak8",
+			    "AmbienceSource:Creak9",
+			    "AmbienceSource:Creak10",
+			    "AmbienceSource:Creak11"
+            ],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Creak1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak11.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:Droning1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Droning1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:Droning1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Droning2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:FireAlarm",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/FireAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:GhostlySynth",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/GhostlySynth.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:GhostlySynth2",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/GhostlySynth2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:LoudCreak1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/LoudCreak1-harmonica.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/LoudCreak1-metal.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:LoudCreak2",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/LoudCreak2-rocket.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:LoudCreak3",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/LoudCreak3-table.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:MetalClank1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/MetalClank1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Random1",
+				"MovementAudio:Random2"
+            ],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Random-asian.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-baby.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-frog.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-heyron.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-icecream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-LESGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-mart.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-phone.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-pizzeria.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-shovel.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-thisiswhymomdoesntfuckingloveyou.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Random-YAAAAA.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:ScreamOutsideShip1",
+				"MovementAudio:ScreamOutsideShip2"
+            ],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/ScreamOutsideShip-autismo.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/ScreamOutsideShip-keem.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:StrangeNoise1",
+			    "MovementAudio:StrangeNoise1_0",
+				"MovementAudio:StrangeNoise2",
+				"MovementAudio:StrangeNoise2_0",
+				"MovementAudio:StrangeNoise3",
+				"MovementAudio:StrangeNoise3_0",
+				"MovementAudio:StrangeNoise4",
+				"MovementAudio:StrangeNoise4_0"
+            ],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-banana.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-beast.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-blender.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-boowomp.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-cbt.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-cheeese.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-chocolatelobsterpie.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-click.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-fish.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-gay.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-ohmyachinghead.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-rat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-scary.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-scorpion.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-spotify.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-train.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-trolled.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-uwu.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-vibrato.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-window.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/StrangeNoise-wizard.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:VoiceCry",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/VoiceCry.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:VoiceCry2",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/VoiceCry2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ShipBumpSFX:VoiceHey",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/VoiceHey.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:WaterAmbience",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/WaterAmbience-common.ogg",
+					"weight": 98
+                },
+                {
+                    "sound": "Environment/Ambience/WaterAmbience-rare.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "*:Whistle",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Whistle.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:WoodCreak1",
+
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/WoodCreak1.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Environment/Ambience/WoodCreak1-walls.ogg",
+					"weight": 20
+                }
+            ]
+        }
+    ]
+}

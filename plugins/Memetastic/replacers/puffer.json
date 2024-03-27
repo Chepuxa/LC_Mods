@@ -1,0 +1,128 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "CreatureVoice:BitePlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BitePlayer-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BitePlayer-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:Stomp",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/PufferStomp.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureVoice:Frighten1",
+			    "CreatureVoice:Frighten3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Frighten-var9.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:Nervous",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/Nervous-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/Nervous-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "PufferEnemy:FootstepSFX:Step1",
+			    "PufferEnemy:FootstepSFX:Step2",
+			    "PufferEnemy:FootstepSFX:Step3",
+			    "PufferEnemy:FootstepSFX:Step4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/StepPuffer1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/StepPuffer2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:PuffSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/PuffSFX-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/PuffSFX-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Puffer/PuffSFX-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:RattleTail",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Puffer/RattleTail.ogg"
+                }
+            ]
+        }
+    ]
+}

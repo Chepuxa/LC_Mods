@@ -1,0 +1,251 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "AngerVoice:Angered",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenAngered-var8.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "NeckCrackAudio:CrackNeck",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Korean.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenCrackNeck-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Flowerman:StunFlowerman",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Flowerman:Found1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-spanish.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var1.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var2.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var3.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var4.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var5.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var6.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var7.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var8.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var9.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var10.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var11.ogg",
+					"weight": 10
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Flowerman:Rustle1",
+			    "Flowerman:Rustle2",
+			    "Flowerman:Rustle3",
+			    "Flowerman:Rustle4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstepLeaf-var1.ogg",
+					"weight":10
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstepLeaf-var1.ogg",
+					"weight":10
+                },
+                {
+                    "sound": "Misc/Silence.ogg",
+					"weight":60
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Flowerman:Step1",
+			    "Flowerman:Step2",
+			    "Flowerman:Step3",
+			    "Flowerman:Step4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstep-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstep-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstep-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstep-var4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

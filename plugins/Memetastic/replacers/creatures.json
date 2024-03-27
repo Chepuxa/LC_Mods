@@ -1,0 +1,86 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "ConstantSFX:DocileLocustBees",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/DocileLocustBees.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "RedLocustBees:BeeZapConstant",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bees/BeeHitPlayer-Common.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Bees/BeeHitPlayer-Rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureSFX:BirdScreech1",
+				"CreatureSFX:BirdScreech2"
+			],  
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/BirdScreech1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/BirdScreech2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureSFX:DoublewingFlap1",
+				"CreatureSFX:DoublewingFlap2",
+				"CreatureSFX:DoublewingFlap3"
+			], 
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap1-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap1-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap2.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap3.ogg",
+					"weight": 30
+                }
+            ]
+        },
+        {
+            "matches": "FlappingAudio:DoublewingFlapConstant",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var3.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

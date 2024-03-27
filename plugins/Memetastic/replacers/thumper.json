@@ -1,0 +1,136 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "VoiceSFX:BitePlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BitePlayer-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BitePlayer-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:CrawlerDie",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/CrawlerDie1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/CrawlerDie2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/CrawlerDie3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/CrawlerDie4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "VoiceSFX:HitCrawler",
+			    "VoiceSFX:HitCrawler2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/HitCrawler1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/HitCrawler2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/HitCrawler3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "VoiceSFX:LongRoar1",
+			    "VoiceSFX:LongRoar2",
+			    "VoiceSFX:LongRoar3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/LongRoar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/LongRoar2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/LongRoar3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:StunCrawler",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/StunCrawler.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Crawler:Ram1",
+			    "Crawler:Ram2",
+			    "Crawler:Ram3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/Ram1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/Ram2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/Ram3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/Ram4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Crawler:Stomp1",
+			    "Crawler:Stomp2",
+			    "Crawler:Stomp3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/Stomp1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/Stomp2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/Stomp3.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

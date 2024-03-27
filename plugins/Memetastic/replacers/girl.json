@@ -1,0 +1,233 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "DressGirl:Breath1",
+			    "DressGirl:Breath2",
+			    "DressGirl:Breath3",
+			    "DressGirlModel:VoiceSFX:Breath1",
+			    "DressGirlModel:VoiceSFX:Breath2",
+			    "DressGirlModel:VoiceSFX:Breath3",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/Breath1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breath2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breath3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DressGirlModel:VoiceSFX:Breathing",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/Breathing-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breathing-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breathing-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breathing-Chasing1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breathing-Chasing3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DressGirl:SkipWalk1",
+			    "DressGirl:SkipWalk2",
+			    "DressGirl:SkipWalk3",
+			    "DressGirl:SkipWalk4",
+			    "DressGirl:SkipWalk5",
+				"DressGirl:SkipWalk6",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DressGirl:SkipWalk",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk.ogg",
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DressGirl:Laugh1",
+			    "DressGirl:Laugh2",
+			    "DressGirlModel:VoiceSFX:Laugh1",
+			    "DressGirlModel:VoiceSFX:Laugh2",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/Breath1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breath2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/Breath3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DressGirl:Wheeze",
+			    "DressGirlModel:VoiceSFX:Wheeze",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/Wheeze.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DressGirl:Stepping1",
+			    "DressGirlModel:VoiceSFX:Stepping1",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/SkipWalk1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExplodeHeadSFX:ExplodeHead",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Korean.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Girl/ExplodeHead-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "HangarShip:FlashlightItem:FlashlightFlicker",
+            "sounds": [
+                {
+                    "sound": "TEST.ogg"
+                }
+            ]
+        }
+    ]
+}
