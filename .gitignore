@@ -1,5 +1,4 @@
 /*.log
 cache/
 config/controls/
-/cache/
-cache/*
+cache/harmony_interop_cache.dat
