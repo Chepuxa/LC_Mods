@@ -1,0 +1,51 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "*:BurrowingRumbleLoud1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormPreEmerge.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:EmergeFromGround1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormEmerge.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:SandWormRoar",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:SandWormRoar",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "*:BurrowingRumble1",
+				"*:BurrowingRumble2",
+				"*:BurrowingRumble3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormFollowing.ogg"
+                }
+            ]
+        }
+    ]
+}

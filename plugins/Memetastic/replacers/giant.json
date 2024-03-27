@@ -1,0 +1,108 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "CloseWideSFX:FGiantEatPlayerSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/FGiantEatPlayerSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CloseWideSFX:GiantStomp1",
+			    "CloseWideSFX:GiantStomp2",
+			    "CloseWideSFX:GiantStomp3",
+			    "CloseWideSFX:GiantStomp4",
+			    "CloseWideSFX:GiantStomp5"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp1.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp2.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp3.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp4.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp5.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine6.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:StunGiant",
+            "sounds": [
+			    {
+                    "sound": "Entities/Living/Giant/StunGiant-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/StunGiant-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/StunGiant-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "FGiantModelContainer:CloseWideSFX:Roar",
+            "sounds": [
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var1.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var2.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var3.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

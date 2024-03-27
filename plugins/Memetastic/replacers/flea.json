@@ -1,0 +1,79 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "CentipedeModel:CentipedeWalk",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/CentipedeWalk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": ":ClingToPlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/ClingToPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ClingToPlayer2DSFX:ClingToPlayerLocal",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/ClingToPlayerLocal.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:DeathShriek",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/DeathShriek.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoise.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise2",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoise2-risetoceiling.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:monsterNoiseB",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoiseB.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "VoiceSFX:Shriek1",
+                "CentipedeModel:Shriek2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/Shriek1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/Shriek2.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "HoarderBug:Angry",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/Angry.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "HoarderBug:BugWalk1",
+				"HoarderBug:BugWalk2",
+				"HoarderBug:BugWalk3",
+				"HoarderBug:BugWalk4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/BugWalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/BugWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/BugWalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/BugWalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "HoarderBug:Fly",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/Fly.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Voice:Chitter1",
+				"Voice:Chitter2",
+				"Voice:Chitter3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			   "Voice:AngryScreech1",
+			   "Voice:AngryScreech2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/AngryScreech.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/AngryScreech2.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

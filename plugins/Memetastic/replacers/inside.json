@@ -1,0 +1,152 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "BigDoor:BigDoorClose",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/BigDoorClose-common.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Environment/Inside/BigDoorClose-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Environment/Inside/BigDoorClose-rare2.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "BreakerBox:BreakerBoxClose",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/BreakerBoxClose-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Environment/Inside/BreakerBoxClose-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DoorSound:DoorOpen1",
+				"DoorSound:DoorOpen2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorOpen1inverted.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorOpen2inverted.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DoorSound:DoorClose1",
+				"DoorSound:DoorClose2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorClose1inverted.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorClose2inverted.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DoorLockPickSound:DoorUnlock",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorUnlock.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorUnlock2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:Fireplace",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/Fireplace.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LargeFanRoom",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/LargeFanRoom.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LightFlicker",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/LightFlicker.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LightOff",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/LightOff-common.ogg",
+					"weight": 60
+                },
+                {
+                    "sound": "Environment/Inside/LightOff-rare.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "*:MetalDoorShut1",
+			    "*:MetalDoorShut1 1",
+				"*:MetalDoorShut2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/MetalDoorShut1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/MetalDoorShut2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentCrawl1",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/VentCrawl1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentOpen1",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/VentOpen1.ogg"
+                }
+            ]
+        }
+    ]
+}

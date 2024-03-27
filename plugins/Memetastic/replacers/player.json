@@ -1,0 +1,536 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "MovementAudio:Aluminum1",
+			    "MovementAudio:Aluminum2",
+			    "MovementAudio:Aluminum3",
+			    "MovementAudio:Aluminum4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Aluminum1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [ 
+			    "MovementAudio:Carpet1",
+			    "MovementAudio:Carpet2",
+			    "MovementAudio:Carpet3",
+			    "MovementAudio:Carpet4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Carpet1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Concrete1",
+			    "MovementAudio:Concrete2",
+			    "MovementAudio:Concrete3",
+			    "MovementAudio:Concrete4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Concrete1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+ 			    "MovementAudio:Grass1",
+ 			    "MovementAudio:Grass2",
+ 			    "MovementAudio:Grass3",
+ 			    "MovementAudio:Grass4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Grass1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Gravel1",
+			    "MovementAudio:Gravel2",
+			    "MovementAudio:Gravel3",
+			    "MovementAudio:Gravel4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Gravel1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Gravel1Wet",
+			    "MovementAudio:Gravel2Wet",
+			    "MovementAudio:Gravel3Wet",
+			    "MovementAudio:Gravel4Wet"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Gravel1Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel2Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel3Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel4Wet.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:MetalWalk",
+			    "MovementAudio:MetalWalk2",
+			    "MovementAudio:MetalWalk3",
+			    "MovementAudio:MetalWalk4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/MetalWalk.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Rock1",
+			    "MovementAudio:Rock2",
+			    "MovementAudio:Rock3",
+			    "MovementAudio:Rock4",
+			    "MovementAudio:Rock5"
+		    ],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Rock1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:Tile1",
+			    "MovementAudio:Tile2",
+			    "MovementAudio:Tile3",
+			    "MovementAudio:Tile4",
+			    "MovementAudio:Tile5"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Tile1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:WoodStep1",
+			    "MovementAudio:WoodStep2",
+			    "MovementAudio:WoodStep3",
+			    "MovementAudio:WoodStep4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/WoodStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:AlertHUD",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/AlertHUD.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CollectScrapSmall",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/CollectScrapSmall.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CounterAdd",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/CounterAdd.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CounterAddFinish",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/CounterAddFinish.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CriticalInjury",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/CriticalInjury.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:DaysLeftSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/DaysLeftSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:FinalDayBeforeDeadline",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/FinalDayBeforeDeadline.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:GlobalNotificationSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/GlobalNotificationSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:HUDSystemAlert",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/HUDSystemAlert.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UnderwaterAudio:BreathingUnderwater",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/BreathingUnderwater.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Player:TalkingUnderwaterBubbles",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/TalkingUnderwaterBubbles.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:ReachedQuotaSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/ReachedQuotaSFX-rare.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/ReachedQuotaSFX-common.ogg",
+					"weight": 9
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:Scan",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Scan-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Scan-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Scan-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "UIAudio:TipsHUD",
+				"UIAudio:TipsHUD2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/TipsHUD.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/TipsHUD1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/TipsHUD2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "UIAudio:WarningHUD",
+			    "UIAudio:WarningHUD2",
+			    "UIAudio:WarningHUD3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/WarningHUD.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WarningHUD2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WarningHUD3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:TakeDamage",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/TakeDamage-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/TakeDamage-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/TakeDamage-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "WebHangerPhysics:BodyCollision1",
+				"WebHangerPhysics:BodyCollision2",
+				"WebHangerPhysics:BodyCollision3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/BodyCollision1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/BodyCollision2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/BodyCollision3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "EarsRingingAudio:EarsRinging",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/EarsRinging-common.ogg",
+					"weight": 15
+                },
+                {
+                    "sound": "Entities/Player/EarsRinging-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MovementAudio:JumpHitGround1",
+				"MovementAudio:JumpHitGround2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Player/JumpHitGround-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/JumpHitGround-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/JumpHitGround-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/JumpHitGround-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "StatusEffectAudio:SinkIntoMud",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/SinkIntoMud.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:StartJump",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/StartJump-prkr.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/StartJump-var1.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Entities/Player/StartJump-var2.ogg",
+					"weight": 40
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "SpringManModel:FoostepSFX:BareFootstep1",
+			    "SpringManModel:FoostepSFX:BareFootstep2",
+			    "SpringManModel:FoostepSFX:BareFootstep3",
+			    "SpringManModel:FoostepSFX:BareFootstep4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "SpringManModel:VoiceSFX:Spring1",
+			    "SpringManModel:VoiceSFX:Spring2",
+			    "SpringManModel:VoiceSFX:Spring3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilStop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+				"SpringManModel:VoiceSFX:SpringWobble1",
+				"SpringManModel:VoiceSFX:SpringWobble2"
+            ],
+			"sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilStop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PlayerRagdollSpring Variant:KillPlayerSpring",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Korean.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-ouch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilKillPlayer-Tom.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

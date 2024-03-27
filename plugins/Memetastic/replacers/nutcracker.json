@@ -1,0 +1,154 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "LongRangeSFX:AlertedSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/SpotterPlayer-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/SpotterPlayer-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/SpotterPlayer-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:Kick",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/Kick.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/Kick-baby.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureSFX:MetalSqueak1",
+			    "CreatureSFX:MetalSqueak2",
+			    "CreatureSFX:MetalSqueak3",
+			    "CreatureSFX:MetalSqueak4"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/MetalSqueak1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/MetalSqueak2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/MetalSqueak3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/MetalSqueak4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:NutcrackerAngry",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerAngry-calm1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerAngry-calm2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerAngry-loud1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerAngry-loud2.ogg",
+					"weight": 5
+                }
+            ]
+        },
+        {
+            "matches": "*:NutcrackerDie",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerDie-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerDie-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerDie-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerDie-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:NutcrackerHitEye",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerHitEye-var7.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "TurnBodySFX:NutcrackerTurn",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerTurn.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:ShotgunReloadNutcracker",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/ShotgunReloadNutcracker.ogg"
+                }
+            ]
+        }
+    ]
+}

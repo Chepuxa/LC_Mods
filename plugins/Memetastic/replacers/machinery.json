@@ -1,0 +1,335 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MovementAudio:ChangeSuit",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/ChangeSuit.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Trigger:ChargeItem",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/ChargeItem-common.ogg",
+					"weight": 9
+                },
+                {
+                    "sound": "Machinery/Ship/Misc/ChargeItem-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:CodeBroadcastSound",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/CodeBroadcastSound.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:EnterTerminal",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/EnterTerminal.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:ExitTerminal",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/ExitTerminal.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:FiredVoiceline",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/FiredVoiceline-rare.ogg",
+					"weight": 1
+                },
+				{
+                    "sound": "Machinery/Ship/Misc/FiredVoiceline-common.ogg",
+					"weight": 9
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:0DaysLeftAlert",
+            "sounds": [
+                {
+                    "sound": "Entities/Player/0DaysLeftAlert.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HangarDoorAudioSource:HangarDoorShut",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/HangarDoorShut-common.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Machinery/Ship/Misc/HangarDoorShut-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "PlacementCollider:MoveShipObjectBig",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/MoveShipObjectBig-common.ogg",
+					"weight": 9
+                },
+                {
+                    "sound": "Machinery/Ship/Misc/MoveShipObjectBig-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:PurchaseSFX",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/PurchaseSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LampSqueakAudio:ShipAmbianceLightSqueak",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/ShipAmbianceLightSqueak.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "StartGameLever:StartGameLever",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/StartGameLever-rare.ogg",
+					"weight": 25
+                },
+                {
+                    "sound": "Machinery/Ship/Misc/StartGameLever-common.ogg",
+					"weight": 75
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:SuckedIntoSpace",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/SuckedIntoSpace.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "nullTerminalAudio:TerminalAlarm",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/TerminalAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:TerminalLoadImage",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/TerminalLoadImage.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TerminalAudio:TerminalTypoError",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Misc/TerminalTypoError.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PlacementCollider:CandleFlame",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/CandleFlame-common.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Machinery/Ship/Decor/CandleFlame-rip.ogg",
+					"weight": 60
+                }
+            ]
+        },
+        {
+            "matches": "LockerAudio:CupboardClose",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/CupboardClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LockerAudio:CupboardOpen",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/CupboardOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PlacementCollider:LightCandle",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/LightCandle.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ClipboardManual:PaperTurn2",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/PaperTurn2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:PlushieSqueeze",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/PlushieSqueeze-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Machinery/Ship/Decor/PlushieSqueeze-rare.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "TVAudio:SnareFleaTipChannel",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/SnareFleaTipChannel.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TVAudio:TVKittenTheme",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Decor/TVKittenTheme.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ShipTeleporterBeam",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/ShipTeleporterBeam.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:ShipTeleporterBeamPlayerBody",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/ShipTeleporterBeamPlayerBody.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ShipTeleporterSpark",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TeleportAudio:ShipTeleporterSpin",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/ShipTeleporterSpin.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TeleportAudio:ShipTeleporterSpinInverse",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/ShipTeleporterSpinInverse.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:SignalTranslatorBegin",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorBegin.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:SignalTranslatorFinish",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorFinish.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:SignalTranslatorLocalSFX",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorLocalSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "UIAudio:SignalTranslatorType1",
+			    "UIAudio:SignalTranslatorType2",
+			    "UIAudio:SignalTranslatorType3"
+			],
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorType1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorType2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Machinery/Ship/Upgrades/SignalTranslatorType3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ItemShip:ItemDropshipLand",
+            "sounds": [
+                {
+                    "sound": "Machinery/Droppod/ItemDropshipLand.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ItemShip:ItemDropshipOpenDoors",
+            "sounds": [
+                {
+                    "sound": "Machinery/Droppod/ItemDropshipOpenDoors.ogg"
+                }
+            ]
+        }
+    ]
+}

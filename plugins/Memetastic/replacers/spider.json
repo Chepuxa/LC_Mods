@@ -1,0 +1,114 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "MeshContainer:FootstepSFX:Step1",
+			    "MeshContainer:FootstepSFX:Step2",
+			    "MeshContainer:FootstepSFX:Step3",
+			    "MeshContainer:FootstepSFX:Step4",
+			    "MeshContainer:FootstepSFX:Step5",
+			    "MeshContainer:FootstepSFX:Step6",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/StepSpider1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/StepSpider8.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:SpiderDie",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/SpiderDie.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:StunSpider",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/StunSpider.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BodyAudio:HangPlayerOnCeiling",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/HangPlayerOnCeiling-common.ogg",
+					"weight": 70
+                },
+                {
+                    "sound": "Entities/Living/Spider/HangPlayerOnCeiling-rare.ogg",
+					"weight": 15
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:SpiderAttack",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/SpiderAttack-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/SpiderAttack-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/SpiderAttack-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:SpiderHit",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Spider/SpiderHit-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/SpiderHit-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Spider/SpiderHit-var3.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

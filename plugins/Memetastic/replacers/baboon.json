@@ -1,0 +1,152 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "AggressionSFX:BaboonEnterFight",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonEnterFight.ogg"
+                }
+            ]
+        },        
+        {
+            "matches": "CreatureVoice:BaboonKill",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonKillPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:BaboonStab",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonStabPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:BaboonTakeDamage",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonTakeDamage-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonTakeDamage-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonTakeDamage-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "AggressionSFX:Caw1",
+				"CreatureVoice:Caw1"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonSpotPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "AggressionSFX:CawScream1",
+				"CreatureVoice:CawScream1",
+			    "AggressionSFX:CawScream2",
+				"CreatureVoice:CawScream2",
+			    "AggressionSFX:CawScream3",
+				"CreatureVoice:CawScream3",
+			    "AggressionSFX:CawScream4",
+				"CreatureVoice:CawScream4",
+			    "AggressionSFX:CawScream5",
+				"CreatureVoice:CawScream5"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonScream1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonScream3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonScream4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonScream5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+				"BaboonHawkEnemy:CreatureSFX:Footstep1",
+				"BaboonHawkEnemy:CreatureSFX:Footstep2",
+				"BaboonHawkEnemy:CreatureSFX:Footstep3",
+				"BaboonHawkEnemy:CreatureSFX:Footstep4",
+				"BaboonHawkEnemy:CreatureSFX:Footstep5"
+            ],
+			"sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonFootstep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonFootstep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonFootstep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonFootstep4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonFootstep5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:KillBaboon",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonKilledByPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "AggressionSFX:Squeak1",
+				"CreatureVoice:Squeak1",
+				"AggressionSFX:Squeak2",
+				"CreatureVoice:Squeak2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonSqueak1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/BaboonHawk/BaboonSqueak2.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

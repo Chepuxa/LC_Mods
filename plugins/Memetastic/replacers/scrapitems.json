@@ -1,0 +1,610 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Airhorn:AirHorn1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/AirHorn1-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Items/Scrap/AirHorn1-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Airhorn:FarAudio:AirHornFar",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/AirHornFar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CashRegisterItem:CashRegisterDing",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/CashRegisterDing-common.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Items/Scrap/CashRegisterDing-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Dentures:ChatteringTeeth",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/ChatteringTeeth.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Clownhorn:ClownHorn1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/ClownHorn1-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHorn1-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHorn1-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHorn1-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:ClownHornFar",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/ClownHornFar-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHornFar-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHornFar-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ClownHornFar-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "HandBell:DropBell",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropBell.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BinFullOfBottles:DropBottle",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropBottles-cola1.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Items/Scrap/DropBottles-cola2.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Items/Scrap/DropBottles-cola3.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Items/Scrap/DropBottles-colaespuma.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "GiftBox:DropCardboardBox",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-chrisvar1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-chrisvar2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-chrisvar3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-giftvar1.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-giftvar2.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Items/Scrap/DropCardboardBox-giftvar3.ogg",
+					"weight": 20
+                }
+            ]
+        },
+        {
+            "matches": "Audio Source:OpenBox",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/OpenBox.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Flask:DropGlass1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropGlass1-flask-common.ogg",
+					"weight": 9
+                },
+                {
+                    "sound": "Items/Scrap/DropGlass1-flask-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Magic7Ball:DropMetalObject1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-ballduke.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-ballvar1.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-ballvar2.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-ballvar3.ogg",
+					"weight": 3
+                }
+            ]
+        },
+        {
+            "matches": "RedSodaCan:DropMetalObject1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-soda.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropMetalObject1-sodacommon.ogg",
+					"weight": 5
+                }
+            ]
+        },
+        {
+            "matches": "GoldBar:DropMetalObject3",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropMetalObject3-goldbar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Mug:DropPlastic1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee4.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee5.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffee6.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic1-coffeecup.ogg",
+					"weight": 20
+                }
+            ]
+        },
+        {
+            "matches": "FishTestProp:DropPlastic2",
+            "sounds": [
+			    {
+                    "sound": "Items/Scrap/DropPlastic2-fishvar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlastic2-fishvar2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Painting:DropPlasticLarge",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-rossvar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-rossvar2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-rossvar3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-rossvar4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "SteeringWheel:DropPlasticLarge",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/DropPlasticLarge-samir6.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:DuckQuack",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DropRubberDuck-common.ogg",
+					"weight": 9
+                },
+                {
+                    "sound": "Items/Scrap/DropRubberDuck-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:DropRubberDuck",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/DuckQuack.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WhoopieCushion:Fart1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/Fart1-common.ogg",
+					"weight": 50
+                },
+                {
+                    "sound": "Items/Scrap/Fart1-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:GrabBottle",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/GrabBottle-common.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Items/Scrap/GrabBottle-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/GrabBottle-rare2.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:GrabCardboardBox",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/GrabCardboardBox-common.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Items/Scrap/GrabCardboardBox-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/GrabCardboardBox-rare2.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:GrabKey",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/GrabKey-2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/GrabKey-4.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/GrabKey-94.ogg",
+					"weight": 40
+                }
+            ]
+        },
+        {
+            "matches": "Key:PocketKey",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/PocketKey-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Items/Scrap/PocketKey-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:GrabShotgun",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/GrabShotgun-1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/GrabShotgun-2.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Items/Scrap/GrabShotgun-3.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Items/Scrap/GrabShotgun-94.ogg",
+					"weight": 75
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:GrabShotgunShell",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/GrabShotgunShell-2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/GrabShotgunShell-4.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/GrabShotgunShell-94.ogg",
+					"weight": 20
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:PickUpPlasticBin",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/PickUpPlasticBin-4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PickUpPlasticBin-6.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/PickUpPlasticBin-90.ogg",
+					"weight": 20
+                }
+            ]
+        },
+        {
+            "matches": "Hairdryer:Hairdryer1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/Hairdryer1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FarAudio:HairdryerFar",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/HairdryerFar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DiyFlashbang:HomemadeFlashbangPullCork",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/HomemadeFlashbangPullCork-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/HomemadeFlashbangPullCork-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "OldPhone:PhoneScream",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/PhoneScream-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/PhoneScream-var10.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "PickleJar:DropGlass1",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/Picklejar.ogg",
+					"weight": 35
+                },
+                {
+                    "sound": "Items/Scrap/Picklejar-var1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/Picklejar-var2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/Picklejar-var3.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "Remote:RemoteClick",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/RemoteClick-common.ogg",
+					"weight": 150
+                },
+                {
+                    "sound": "Items/Scrap/RemoteClick-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "RobotToy:RobotToyCheer",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/RobotToyCheer-prog.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "GunShootSFX:ShotgunBlast",
+			    "GunShootSFX:ShotgunBlast2"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/ShotgunBlast.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ShotgunBlast2-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/ShotgunBlast2-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ShotgunItem:ShotgunReload",
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/ShotgunReload-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Items/Scrap/ShotgunReload-rare.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

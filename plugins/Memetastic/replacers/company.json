@@ -1,0 +1,131 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Trigger:BellDinger",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/BellDinger-common.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Environment/Company/BellDinger-rare.ogg",
+					"weight": 5
+                }
+            ]
+        },
+        {
+            "matches": "WindowAudio:CalmBehindDoor",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/CalmBehindDoor-common.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Environment/Company/CalmBehindDoor-rare.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "ConstantWallAudio:DangerousMoodAmbience",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/DangerousMoodAmbience.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CompanyPlanet:TrapDoor:MetalHatchOpen",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/HatchOpen-common.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Environment/Company/HatchOpen-rare.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "CompanyPlanet:TrapDoor:MetalHatchClose",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/HatchClose.ogg"
+				}
+            ]
+        },
+        {
+            "matches": [
+			    "SpeakerAudio:Mic1",
+			    "SpeakerAudio:Mic2",
+			    "SpeakerAudio:Mic3",
+			    "SpeakerAudio:Mic4",
+			    "SpeakerAudio:Mic5",
+			    "SpeakerAudio:Mic6",
+			    "SpeakerAudio:Mic7",
+			    "SpeakerAudio:Mic8",
+			    "SpeakerAudio:Mic9",
+			    "SpeakerAudio:Mic10",
+			    "SpeakerAudio:Mic11"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Company/Mic1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic2.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic3.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic4.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic5.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic6.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic7.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic8.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic9.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Environment/Company/Mic10.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Environment/Company/Mic11.ogg",
+					"weight": 5
+                }
+            ]
+        },
+        {
+            "matches": "*:Snoring",
+            "sounds": [
+                {
+                    "sound": "Environment/Company/Snoring.ogg"
+                }
+            ]
+        }
+    ]
+}

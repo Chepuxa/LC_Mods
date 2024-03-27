@@ -1,0 +1,113 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+			    "FarAudio:JesterStomp1",
+			    "FarAudio:JesterStomp2",
+			    "FarAudio:JesterStomp3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Jester/JesterStomp1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/JesterStomp2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/JesterStomp3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "JesterEnemy:*:KillPlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}
