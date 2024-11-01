@@ -1,0 +1,131 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityMimics",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "MimicDoor:doorSFX:doorSFX",
+            "sounds": [
+                {
+                    "sound": "Compatibility/MimicsDoor.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Root:mimicSFX:mimicSFX",
+	        "condition": {
+            "type": "config",
+            "config": "Vanilla Sounds:PlayerDeath",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Fortnite.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Korean.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-PeloScream1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsEatPlayer-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MimicDoor:growlSFX:growlSFX",
+            "sounds": [
+                {
+                    "sound": "Compatibility/MimicsGrowl1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsGrowl2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/MimicsGrowl3.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

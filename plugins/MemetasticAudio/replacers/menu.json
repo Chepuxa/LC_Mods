@@ -1,0 +1,98 @@
+{
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Menu",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "InitSceneScript:BootUp",
+            "sounds": [
+                {
+                    "sound": "Misc/BootUp.ogg"
+                }
+            ]
+        },
+		{
+            "matches": [
+			"PlayerSettingsObject:Button1",
+			"ConfigMenuManager:AudioManager:ChangeValueSFX"
+			],
+            "sounds": [
+                {
+                    "sound": "Misc/MenuButton1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"MenuManager:Button2",
+			"ConfigMenuManager:AudioManager:ConfirmSFX"
+			],
+            "sounds": [
+                {
+                    "sound": "Misc/MenuButton2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"MenuManager:Button3",
+			"ConfigMenuManager:AudioManager:CancelSFX"
+			],
+            "sounds": [
+                {
+                    "sound": "Misc/MenuButton3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button4",
+            "sounds": [
+                {
+                    "sound": "Misc/MenuButton4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "SelectAudio:ButtonPress1",
+			    "SelectAudio:ButtonPress2"
+		    ],
+            "sounds": [
+                {
+                    "sound": "Misc/StartupButtonDemo.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonEngineer.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonHeavy.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonMedic.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonPyro.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonScout.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonSniper.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Misc/StartupButtonSpy.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+        "type": "and",
+        "conditions": [ 
+            {
+				"type": "config",
+				"config": "Vanilla Sounds:Hoarder",
+				"value": true
+            },
+            {
+				"type": "mod_installed",
+				"value": "sunnobunno.YippeeMod",
+			}
+        ]
+    },
+    "replacements": [
+        {
+            "matches": "HoarderBug:Fly",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/Fly.ogg"
+                }
+            ]
+        },
+        {
+			"matches": "AnimContainer:Voice:Angry",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeAllMyFellas.ogg"
+                }
+            ]
+        },
+        {
+			"matches": "AnimContainer:Voice:Angry",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeAngry.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "HoarderBug:BugWalk1",
+				"HoarderBug:BugWalk2",
+				"HoarderBug:BugWalk3",
+				"HoarderBug:BugWalk4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "HoarderBug:BugWalk1",
+				"HoarderBug:BugWalk2",
+				"HoarderBug:BugWalk3",
+				"HoarderBug:BugWalk4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/ClownShoesHoarderRelease.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/ClownShoesHoarderCompress.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Voice:Chitter1",
+				"Voice:Chitter2",
+				"Voice:Chitter3",
+				"AnimContainer:Voice:yippee-tbh"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeYippee.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			   "Voice:AngryScreech",
+			   "Voice:AngryScreech2"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeScreech.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilitySpecimenRed",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"CreatureSFX:ClosePinkGiantStomp1",
+			"CreatureSFX:ClosePinkGiantStomp2",
+			"CreatureSFX:ClosePinkGiantStomp3",
+			"CreatureSFX:PinkGiantMoroxideStep",
+			],
+            "sounds": [
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantStep1.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantStep2.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantStep3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "PinkGiant1:CreatureSFX:CrunchySquish",
+            "sounds": [
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantPlayerDeath.ogg"
+				}
+            ]
+        },
+        {
+            "matches": "PinkGiant1:CreatureVoice:RedwoodGiantRoar",
+            "sounds": [
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantSpawn.ogg"
+				}
+            ]
+        },
+        {
+            "matches": "PinkGiant1:CreatureVoice:ForestKeeperScream",
+            "sounds": [
+			    {
+                    "sound": "Compatibility/GiantSpecimens/RedWoodGiantEat.ogg"
+				}
+            ]
+        }
+    ]
+}

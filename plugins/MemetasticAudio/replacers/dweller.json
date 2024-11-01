@@ -1,0 +1,142 @@
+{
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Dweller",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "CaveDwellerEnemy:Clicking2:Buzzing 1",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerYodeling2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:BabyCry5b",
+			"*:BabyCry4",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerBabyCry2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:BabyCryFake",
+			"*:BabyCryFake2",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerAdultCry1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerAdultCry2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerAdultCry3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerAdultCry4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AdultCreatureVoice:CaveDwellerInhale",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdSpotlightOn.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CaveDwellerEnemy:Scream:LeapScreamV2",
+			"CaveDwellerEnemy:ScreamNondiagetic:LeapScreamV2",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCharge1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCharge2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCharge3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AdultCreatureVoice:CooldownBreathing",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCooldown1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCooldown2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Dweller/DwellerCooldown3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:Transformation",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerGrow.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CaveDwellerEnemy:Clicking1:ClickingMandibles",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerClicking2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CaveDwellerEnemy:WalkAudio:CaveDwellerAdultMove",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerWaddleWalk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:BabyPuke",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerPuke.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:EatScrap",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dweller/DwellerBabyEat.ogg"
+                }
+            ]
+        }
+    ]
+}

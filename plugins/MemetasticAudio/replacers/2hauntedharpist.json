@@ -1,0 +1,29 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityHauntedHarpist",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"Harp:HarpMusic1",
+			"Harp:HarpMusic2",
+			"Harp:HarpMusic3"
+			],
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/HarpistAquaHarp.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+    "replacements": [
+        {
+            "matches": "*:AirConditioner",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroVentilation.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:DistantFireAlarm",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroAlarmFar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:CloseFireAlarm",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:NormalOfficeSounds",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroOfficeChaos.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:Quake1",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroQuake.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:WindyDoorOpen",
+            "sounds": [
+                {
+                    "sound": "Misc/IntroDoorOpen1.ogg"
+                }
+            ]
+        }
+    ]
+}

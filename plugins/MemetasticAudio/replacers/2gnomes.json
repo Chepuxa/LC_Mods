@@ -1,0 +1,65 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityGnomes",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "CreatureSFX:Gnome Laugh",
+            "sounds": [
+                {
+                    "sound": "Compatibility/GnomeLaugh1.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Compatibility/GnomeLaugh2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/GnomeLaugh3.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Compatibility/GnomeLaugh4.ogg",
+					"weight": 2
+				}
+            ]
+        },
+        {
+            "matches": "Audios:MovementAudio:Gnome Laugh",
+            "sounds": [
+                {
+                    "sound": "Compatibility/GnomeTeleport.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"GnomeItemPrefab:Gnome Laugh",
+			"VentEntrance:Gnome Laugh",
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/GnomeTalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/GnomeTalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/GnomeTalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/GnomeTalk4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Music:DMCAMusic",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "*:BellChimeAmbience",
+            "sounds": [
+                {
+                    "sound": "Music/BellChimeAmbience-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FarAudio:JackInTheBoxTheme",
+            "sounds": [
+                {
+                    "sound": "Music/JackInTheBoxTheme-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SFXAudio:Pop1",
+            "sounds": [
+                {
+                    "sound": "Music/Pop1-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:Scream1",
+            "sounds": [
+                {
+                    "sound": "Music/Scream1-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ThrusterAudioClose:JetpackThrust1",
+            "sounds": [
+                {
+                    "sound": "Music/JetpackThrust1-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HornAudio:ShipAlarmHornConstant",
+            "sounds": [
+                {
+                    "sound": "Music/ShipAlarmHornConstant-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HornAudioDistant:ShipAlarmHornConstantDistant",
+            "sounds": [
+                {
+                    "sound": "Music/ShipAlarmHornConstantDistant-NM.ogg"
+                }
+            ]
+        }
+    ]
+}

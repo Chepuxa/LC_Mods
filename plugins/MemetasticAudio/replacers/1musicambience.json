@@ -1,0 +1,147 @@
+{
+	"condition": {
+    "type": "config",
+    "config": "Music:MusicAmbience",
+    "value": true
+    },
+    "replacements": [
+        {
+            "matches": "TimeOfDayCue:CompanyBuildingMusic1",
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerEnterCompany.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:Stinger_EnterManor",
+			"*:Stinger_EnterDefaultMaze",
+			],
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerEnterDungeon.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:StartOfDay",
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerMorning2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:MidDay",
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerMidDay2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:LateDay",
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerEvening.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:AmbientMusic1",
+			"*:AmbientMusic2",
+			"*:AmbientMusic3",
+			"*:AmbientMusic4",
+			"*:AmbientMusic5",
+			"*:AmbientMusic6",
+			"*:AmbientMusic7",
+			"*:AmbientMusic8",
+			"*:AmbientMusic9",
+			"*:AmbientMusic10",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/AmbienceMinecraft2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMinecraft3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMinecraft5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMinecraft6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMinecraft7.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:AmbientMusic1",
+			"*:AmbientMusic2",
+			"*:AmbientMusic3",
+			"*:AmbientMusic4",
+			"*:AmbientMusic5",
+			"*:AmbientMusic6",
+			"*:AmbientMusic7",
+			"*:AmbientMusic8",
+			"*:AmbientMusic9",
+			"*:AmbientMusic10",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/AmbienceMacleod1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMacleod2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMacleod3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMacleod4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Music/Ambience/AmbienceMacleod5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "EclipseMusic:EclipseAmbience",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/EclipseAmbience.ogg"
+                }
+            ]
+        }
+    ]
+}

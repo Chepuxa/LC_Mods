@@ -1,0 +1,13 @@
+{
+	"name": "GoofyCruiser",
+    "config": {
+        "Settings:Horn": {
+            "description": "Enable musical horn?",
+            "default": false
+        },
+        "Settings:Cruiser": {
+            "description": "Enable Cruiser sound replacement?",
+            "default": true
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityLocker",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "Locker:locker-ping",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdSpotlightOn.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-chasing",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/LockerChaseFirst1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/Locker/LockerChaseFirst2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/Locker/LockerChaseFirst3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/Locker/LockerChaseFirst4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-chasing",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/NMLockerChase.ogg"
+                }
+			]
+        },
+        {
+            "matches": "Locker:locker-consume",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/LockerConsume.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-consume",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/NMLockerConsume.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-activate",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/LockerStartv3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-reactivate",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/LockerGoAgain.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"Locker:locker-reactivate",
+			"Locker:locker-activate",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/NMLockerStart1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/Locker/NMLockerStart2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-reset",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/LockerEndv3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Locker:locker-reset",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/Locker/NMLockerEnd.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Butler",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "*:ButlerIdleAmbience",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerIdle.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerMurderTheme",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerChaseMusic.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerStab1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerStab1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStab2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStab3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStab4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:BalloonPop",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerExplode.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:BalloonPopReverb",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerExplodeFar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerBlowUp",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerPreExplode.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerBeeSwarm",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerBeeSwarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerSuitRustle",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerTakeBroom.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ButlerUntuckKnifeSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerTakeKnife.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:ButlerStep1",
+			"*:ButlerStep2",
+			"*:ButlerStep3",
+			"*:ButlerStep4",
+			"*:ButlerStep5"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Butler/ButlerStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStep4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Butler/ButlerStep5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:ButlerStep1",
+			"*:ButlerStep2",
+			"*:ButlerStep3",
+			"*:ButlerStep4",
+			"*:ButlerStep5"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/ClownShoesShortRelease.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/ClownShoesShortCompress.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

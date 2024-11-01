@@ -1,0 +1,456 @@
+{
+	"condition": {
+	"type": "config",
+	"config": "Settings:Cruiser",
+	"value": true
+	},
+    "replacements": [
+        {
+            "matches": "HoodAudio:Cruiser_AddTurboOil",
+            "sounds": [
+                {
+                    "sound": "CruiserOilTurbo1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HoodAudio:Cruiser_PourOil",
+            "sounds": [
+                {
+                    "sound": "CruiserOil1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserOil2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserOil3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "HoodAudio:Cruiser_OpenHood",
+            "sounds": [
+                {
+                    "sound": "CruiserHoodOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HoodAudio:Cruiser_ShutHood",
+            "sounds": [
+                {
+                    "sound": "CruiserHoodClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CarDoorAudio:DoorClose",
+            "sounds": [
+                {
+                    "sound": "CruiserDoorClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CarDoorAudio:DoorOpen",
+            "sounds": [
+                {
+                    "sound": "CruiserDoorOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TireSkidAudio:Cruiser_Skid",
+            "sounds": [
+                {
+                    "sound": "CruiserSkidding.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ExtremeStressAudio:Cruiser_PushPedalInPark",
+            "sounds": [
+                {
+                    "sound": "CruiserWhine.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PushAudio:Collision_Minimal",
+            "sounds": [
+                {
+                    "sound": "HitCruiser1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "HitCruiser2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "HitCruiser3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CollisionAudio1:Collision_Maximum",
+			"CollisionAudio1:Collision_Maximum2",
+			"CollisionAudio2:Collision_Maximum",
+			"CollisionAudio2:Collision_Maximum2",
+			],
+            "sounds": [
+                {
+                    "sound": "CruiserImpactLarge1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactLarge2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactLarge3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactLarge4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CollisionAudio1:Collision_Medium",
+			"CollisionAudio1:Collision_Medium2",
+			"CollisionAudio1:Collision_Medium3",
+			"CollisionAudio2:Collision_Medium",
+			"CollisionAudio2:Collision_Medium2",
+			"CollisionAudio2:Collision_Medium3",
+			],
+            "sounds": [
+                {
+                    "sound": "CruiserImpactMedium1_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactMedium2_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactMedium3_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactMedium4_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactMedium5_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactMedium6_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CollisionAudio1:Collision_Minimal",
+			"CollisionAudio1:Collision_Minimal2",
+			"CollisionAudio2:Collision_Minimal",
+			"CollisionAudio2:Collision_Minimal2",
+			],
+            "sounds": [
+                {
+                    "sound": "CruiserImpactSmall1_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactSmall2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactSmall3_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactSmall4_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactInside1_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactInside2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactInside3_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserImpactInside4_2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CollisionAudio1:Cruiser_HitObstacle",
+			"CollisionAudio1:Cruiser_HitObstacle2",
+			"CollisionAudio1:Cruiser_HitObstacle3",
+			"CollisionAudio2:Cruiser_HitObstacle",
+			"CollisionAudio2:Cruiser_HitObstacle2",
+			"CollisionAudio2:Cruiser_HitObstacle3",
+			],
+            "sounds": [
+                {
+                    "sound": "CruiserPins1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserPins2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "BackDoorAudio:BackDoorOpen",
+            "sounds": [
+                {
+                    "sound": "CruiserGateOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BackDoorAudio:BackDoorClose",
+            "sounds": [
+                {
+                    "sound": "CruiserGateClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TurboBoostAudio:TurboBoostFlame1",
+            "sounds": [
+                {
+                    "sound": "CruiserJump1.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "CruiserJump2.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "CruiserJump3.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "CruiserJumpHorn.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio1:TurboBoostFlameEngine",
+            "sounds": [
+                {
+                    "sound": "CruiserJumpWoosh1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserJumpWoosh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserJumpWoosh3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DriverSeatContainer:springAudio:Cruiser_JumpInSeat",
+            "sounds": [
+                {
+                    "sound": "CruiserBounce1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserBounce2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserBounce3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserBounce4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserBounce5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:Cruiser_SitDown",
+            "sounds": [
+                {
+                    "sound": "CruiserExit.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VehicleExplosionEffect:ExplosionAudio:Cruiser_Explode",
+            "sounds": [
+                {
+                    "sound": "CruiserExplode1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "CruiserExplode2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Meshes:MiscAudio:WindshieldShatter",
+            "sounds": [
+                {
+                    "sound": "CruiserWindshieldBreak.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MiscAudio:Cruiser_HeadlightsOn",
+            "sounds": [
+                {
+                    "sound": "CruiserHeadlights.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CabinWindowAnimContainer:CabinDoorSlide",
+            "sounds": [
+                {
+                    "sound": "CruiserWindowScroll.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HornAudio:Cruiser_Horn",
+            "sounds": [
+                {
+                    "sound": "Horn.ogg",
+					"condition": {
+					"type": "config",
+					"config": "Settings:Horn",
+					"value": false
+					}
+                },
+                {
+                    "sound": "HornLibertyCity.ogg",
+					"condition": {
+					"type": "config",
+					"config": "Settings:Horn",
+					"value": true
+					}
+                }
+            ]
+        },
+        {
+            "matches": "RadioSignalAudio:Radio_Interference",
+            "sounds": [
+                {
+                    "sound": "CruiserInterference2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CompanyCruiser:GearStickAudio:ShiftToDrive",
+            "sounds": [
+                {
+                    "sound": "ShifterDrive.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CompanyCruiser:GearStickAudio:ShiftToPark",
+            "sounds": [
+                {
+                    "sound": "ShifterPark.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CompanyCruiser:GearStickAudio:ShiftToReverse",
+            "sounds": [
+                {
+                    "sound": "ShifterReverse.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:Cruiser_InsertKey",
+            "sounds": [
+                {
+                    "sound": "CruiserKeyInsert.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:Cruiser_TwistKey",
+            "sounds": [
+                {
+                    "sound": "CruiserKeyTwist.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio1:Cruiser_EngineRev",
+            "sounds": [
+                {
+                    "sound": "EngineRevInitial5.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio1:RevEngine1",
+            "sounds": [
+                {
+                    "sound": "EngineRevDry5.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio1:Cruiser_EngineRun",
+            "sounds": [
+                {
+                    "sound": "EngineRunningStage1_2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio2:Cruiser_EngineRun2",
+            "sounds": [
+                {
+                    "sound": "EngineRunningStage2_2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EngineAudio1:Cruiser_EngineStart",
+            "sounds": [
+                {
+                    "sound": "EngineStartup4.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityNeedyCats",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "ItemAudio:Cat_Pickup",
+            "sounds": [
+                {
+                    "sound": "Compatibility/NeedyCatsPickup1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsPickup2.ogg",
+					"weight": 24
+                }
+            ]
+        },
+        {
+            "matches": "Cat:Cat_Drop",
+            "sounds": [
+                {
+                    "sound": "Compatibility/NeedyCatsMeow1.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow2.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow3.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow4.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow5.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow5rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow6.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow7.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow8.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow9.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow10.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow11.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow12rare.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeowLoud.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow13.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow14.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow15rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow16mark.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow17.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow18.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow19.ogg",
+					"weight": 40
+                }
+            ]
+        },
+        {
+            "matches": "Cat:Cat_CalmDown",
+            "sounds": [
+                {
+                    "sound": "Compatibility/NeedyCatsPet1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsPet2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsPet3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Cat:Cat_Meow1",
+			    "Cat:Cat_Meow2",
+			    "Cat:Cat_Meow3"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/NeedyCatsMeow1.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow2.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow3.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow4.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow5.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow5rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow6.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow7.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow8.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow9.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow10.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow11.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow12rare.ogg",
+					"weight": 12
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeowLoud.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow13.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow14.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow15rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow16mark.ogg",
+					"weight": 8
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow17.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow18.ogg",
+					"weight": 40
+                },
+                {
+                    "sound": "Compatibility/NeedyCatsMeow19.ogg",
+					"weight": 40
+                }
+            ]
+        }
+    ]
+}

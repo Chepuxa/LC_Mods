@@ -1,0 +1,240 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Giant",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "*:ForestGiantBurn",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/GiantBurning.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:ForestGiantDie",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/GiantDie.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CloseWideSFX:FGiantEatPlayerSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/FGiantEatPlayerSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CloseWideSFX:GiantStomp1",
+			    "CloseWideSFX:GiantStomp2",
+			    "CloseWideSFX:GiantStomp3",
+			    "CloseWideSFX:GiantStomp4",
+			    "CloseWideSFX:GiantStomp5"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp1.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp2.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp3.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp4.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStomp5.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/GiantStompLine6.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CloseWideSFX:GiantStomp1",
+			    "CloseWideSFX:GiantStomp2",
+			    "CloseWideSFX:GiantStomp3",
+			    "CloseWideSFX:GiantStomp4",
+			    "CloseWideSFX:GiantStomp5"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStomp1.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStomp2.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStomp3.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStomp4.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStomp5.ogg",
+					"weight": 80
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompLine6.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "FarWideSFX:DistantRumble1",
+			    "FarWideSFX:DistantRumble2",
+			    "FarWideSFX:DistantRumble3",
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompFar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompFar2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/ClownGiantStompFar3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:StunGiant",
+            "sounds": [
+			    {
+                    "sound": "Entities/Living/Giant/StunGiant-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/StunGiant-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/StunGiant-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "FGiantModelContainer:CloseWideSFX:Roar",
+            "sounds": [
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var1.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var2.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var3.ogg",
+					"weight": 1
+                },
+			    {
+                    "sound": "Entities/Living/Giant/Roar-var4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

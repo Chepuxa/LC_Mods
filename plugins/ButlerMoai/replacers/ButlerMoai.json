@@ -1,0 +1,12 @@
+{
+    "replacements": [
+        {
+            "matches": "ButlerEnemy:Ambience:ButlerIdleAmbience",
+            "sounds": [
+                {
+                    "sound": "Butler/MoaiDeluxe.wav"
+                }
+            ]
+        }
+    ]
+}

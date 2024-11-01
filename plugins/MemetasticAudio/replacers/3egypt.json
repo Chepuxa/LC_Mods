@@ -1,0 +1,72 @@
+{
+	"condition": {
+        "type": "and",
+        "conditions": [ 
+            {
+                "type": "config",
+                "config": "Music:MusicAmbience",
+                "value": true
+            },
+            {
+                "type": "config",
+                "config": "Mods:CompatibilityEGypt",
+                "value": true
+            },
+            {
+                "type": "config",
+                "config": "Music:DMCAMusic",
+                "value": true
+            }
+        ]
+    },
+    "replacements": [
+        {
+            "matches": "TimeOfDayCue:StartOfDay",
+            "condition": {
+            "type": "LethalCompany:moon_name",
+            "value": "EGyptLevel"
+            },
+            "sounds": [
+                {
+                    "sound": "Compatibility/TimeOfDay/EGyptMorning.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:MidDay",
+            "condition": {
+            "type": "LethalCompany:moon_name",
+            "value": "EGyptLevel"
+            },
+            "sounds": [
+                {
+                    "sound": "Compatibility/TimeOfDay/EGyptMidDay.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:LateDay",
+            "condition": {
+            "type": "LethalCompany:moon_name",
+            "value": "EGyptLevel"
+            },
+            "sounds": [
+                {
+                    "sound": "Compatibility/TimeOfDay/EGyptEvening.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:Night",
+            "condition": {
+            "type": "LethalCompany:moon_name",
+            "value": "EGyptLevel"
+            },
+            "sounds": [
+                {
+                    "sound": "Compatibility/TimeOfDay/EGyptNight.ogg"
+                }
+            ]
+        }
+    ]
+}

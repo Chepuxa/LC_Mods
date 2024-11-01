@@ -2,3 +2,4 @@
 cache/
 config/controls/
 cache/harmony_interop_cache.dat
+/*.sqlite

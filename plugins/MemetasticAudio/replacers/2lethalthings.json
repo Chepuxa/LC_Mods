@@ -1,0 +1,110 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityLethalThings",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "Boomba:MineBeep",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineBeep.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Boomba:Idle:motor_whine",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTBoombaMotor.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Boomba:MineDetonate",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonate.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonate2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Boomba:MineDetonateDistance",
+            "sounds": [
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonateDistance.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Non-Living/Landmine/MineDetonateDistance2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Boomba:MineTrigger",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Boomba:PressLandmine",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTBoombaTrigger.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TeleporterTrap:PressLandmine",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTTrapPressed.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TeleporterTrap:ShipTeleporterBeam",
+            "sounds": [
+                {
+                    "sound": "Machinery/Ship/Upgrades/ShipTeleporterBeam.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TeleporterTrap:Idle:motor_whine",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTTrapMotor.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PingTool:ping",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTPingerPing.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PingTool:FarAudio:ping",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LTPingerPingFar.ogg"
+                }
+            ]
+        }
+    ]
+}

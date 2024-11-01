@@ -1,0 +1,217 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:OldBird",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"3DLradAudio2:LradBrainwashingSignal1",
+			"3DLradAudio2:LradBrainwashingSignal4",
+			"3DLradAudio2:LradBrainwashingSignal6",
+			"3DLradAudio2:LradBrainwashingSignal7",
+			"3DLradAudio2:LradBrainwashingSignal8",
+			"3DLradAudio2:robotTune",
+			"3DLradAudio2:ToWar"
+			],
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseMusic.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"3DLradAudio2:LradBrainwashingSignal1",
+			"3DLradAudio2:LradBrainwashingSignal4",
+			"3DLradAudio2:LradBrainwashingSignal6",
+			"3DLradAudio2:LradBrainwashingSignal7",
+			"3DLradAudio2:LradBrainwashingSignal8",
+			"3DLradAudio2:robotTune",
+			"3DLradAudio2:ToWar"
+			],
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM2.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM3.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM4.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM5.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM6.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdChaseNM7.ogg",
+					"weight": 4
+                }
+            ]
+        },
+        {
+            "matches": [
+			"metarig:CreatureSFX:RadMechStomp1",
+			"metarig:CreatureSFX:RadMechStomp2",
+			"metarig:CreatureSFX:RadMechStomp3",
+			"metarig:CreatureSFX:RadMechStomp4",
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdClownStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdClownStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdClownStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdClownStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:LRADAlarm3",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:MissileFly",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdMissile1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdMissile2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"ExplosionAudio:MissileExplosion",
+			"ExplosionAudio:MissileExplosion2",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdExplosion1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdExplosion2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdExplosion3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdExplosion4.ogg",
+					"weight": 5
+                }
+            ]
+        },
+        {
+            "matches": "*:SpotlightOn",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdSpotlightOn.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "metarig:CreatureSFX:ShotgunBlast",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdFire1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdFire2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdFire3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdFire4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:Flamethrower",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdFlamethrower.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:RadMechAmbientSFX",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdEngine.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:RadMechWake",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/OldBird/OldBirdStart.ogg"
+                }
+            ]
+        }
+    ]
+}

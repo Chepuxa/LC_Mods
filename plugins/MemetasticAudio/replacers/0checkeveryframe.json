@@ -1,0 +1,155 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+    "update_every_frame": true,
+    "replacements": [
+        {
+            "matches": "HighAction2:HighAction2",
+            "sounds": [
+                {
+                    "sound": "Music/HighAction2-NM.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": true
+							}
+						]
+					}
+                },
+                {
+                    "sound": "Music/LowAction.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": false
+							},
+							{
+							"type": "LethalCompany:player_health",
+							"value": "100.."
+							}
+						]
+					}
+                },
+                {
+                    "sound": "Music/HighAction2.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": false
+							},
+							{
+							"type": "LethalCompany:player_health",
+							"value": "..99"
+							}
+						]
+					}
+                }
+            ]
+        },
+        {
+            "matches": "LowAction:LowAction",
+            "sounds": [
+                {
+                    "sound": "Music/LowAction-NM.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": true
+							}
+						]
+					}
+                },
+                {
+                    "sound": "Music/BellChimeAmbience-NM2.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": false
+							},
+							{
+							"type": "LethalCompany:player_health",
+							"value": "100.."
+							}
+						]
+					}
+                },
+                {
+                    "sound": "Music/LowAction.ogg",
+					"condition": {
+					"type": "and",
+					"conditions": [
+							{
+							"type": "config",
+							"config": "Music:ChaseMusic",
+							"value": true
+							},
+							{
+							"type": "config",
+							"config": "Music:DMCAMusic",
+							"value": false
+							},
+							{
+							"type": "LethalCompany:player_health",
+							"value": "..99"
+							}
+						]
+					}
+                }
+            ]
+        },
+        {
+            "matches": "TimeOfDayCue:Night",
+			"condition": {
+			"type": "config",
+			"config": "Music:MusicAmbience",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Music/Ambience/StingerNightShort.ogg",
+                }
+            ]
+        }
+    ]
+}

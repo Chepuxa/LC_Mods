@@ -1,0 +1,36 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityMeltdown",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "GeigerCounterItem:low radiation",
+            "sounds": [
+                {
+                    "sound": "Compatibility/MeltdownGeigerLow.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "GeigerCounterItem:medium radiation",
+            "sounds": [
+                {
+                    "sound": "Compatibility/MeltdownGeigerMed.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "GeigerCounterItem:high radiation",
+            "sounds": [
+                {
+                    "sound": "Compatibility/MeltdownGeigerHigh.ogg"
+                }
+            ]
+        }
+    ]
+}

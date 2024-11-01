@@ -1,0 +1,97 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Leviathan",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "*:BurrowingRumbleLoud1",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormPreEmerge.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:BurrowingRumbleLoud1",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormPreEmerge-NM.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:EmergeFromGround1",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormEmerge.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:EmergeFromGround1",
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormEmerge-NM.wav"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:SandWormRoar",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:SandWormRoar2",
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "*:BurrowingRumble1",
+				"*:BurrowingRumble2",
+				"*:BurrowingRumble3"
+			],
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Leviathan/SandwormFollowing.ogg"
+                }
+            ]
+        }
+    ]
+}

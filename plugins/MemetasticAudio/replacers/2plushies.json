@@ -1,0 +1,524 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+	"type": "config",
+	"config": "Mods:CompatibilityPlushies",
+	"value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"BrackenPlush:Brackensqueeze1FAR",
+			"BrackenPlush:Brackensqueeze2FAR",
+			"CoilHeadPlush:coil1FAR",
+			"CoilHeadPlush:coil2FAR",
+			"CoilHeadPlush:coil3FAR",
+			"EyelessDog:Eyedog squeezeFAR",
+			"ForestPlushie:GiantSqueezeFAR",
+			"JesterPlushie:jesterinspectFAR",
+			"Lootbugplush:YipeebugsqueezeFar",
+			"NutCracker:Nut cracker squeezeFAR",
+			"Thumper:Thumper squeezeFAR",
+			"ComedyPlush:Comedy Squeeze1FAR",
+			"ComedyPlush:Comedy Squeeze2FAR",
+			"ComedyPlush:Comedy Squeeze3FAR",
+			"TragedyPlush:Tragedy squeeze1FAR",
+			"TragedyPlush:Tragedy squeeze2FAR",
+			"TragedyPlush:Tragedy squeeze3FAR",
+			"TragedyPlush:Tragedy squeeze4FAR",
+			],
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"ItemAudio:Tragedy pick up",
+			"ItemAudio:Comedy pick up"
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Masked",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskLaugh3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"TragedyPlush:Tragedy squeeze1",
+			"ComedyPlush:Comedy Squeeze1",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Masked",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/Laugh1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"TragedyPlush:Tragedy squeeze2",
+			"ComedyPlush:Comedy Squeeze2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Masked",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskCry1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"TragedyPlush:Tragedy squeeze3",
+			"ComedyPlush:Comedy Squeeze3",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Masked",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskCry3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "TragedyPlush:Tragedy squeeze4",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Masked",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskLaugh2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:Bracken pick up",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Bracken",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstepLeaf-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenFootstepLeaf-var2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "BrackenPlush:Bracken drop",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Bracken",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenStunned-var3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"BrackenPlush:Brackensqueeze1",
+			"BrackenPlush:Brackensqueeze2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Bracken",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bracken/BrackenPlayerSeen-var11.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "ItemAudio:Coil head pick up 1",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:CoilHead",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/CoilHead/CoilFootstep-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CoilHeadPlush:Coil head drop 1",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:CoilHead",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilStop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CoilHeadPlush:coil1",
+			"CoilHeadPlush:coil2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:CoilHead",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilScatman.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CoilHeadPlush:coil3",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:CoilHead",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/CoilHead/CoilScatting.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "EyelessDog:Eyedog squeeze",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Dog",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Dog/DogRoar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ForestPlushie:GiantSqueeze",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Giant",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Giant/Roar-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/Roar-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/Roar-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Giant/Roar-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "JesterPlushie:jesterinspect",
+			"condition": {
+			"type": "and",
+			"conditions": [ 
+					{
+						"type": "config",
+						"config": "Vanilla Sounds:Jester",
+						"value": true
+					},
+					{
+						"type": "config",
+						"config": "Music:DMCAMusic",
+						"value": false
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Jester/JesterPlushSqueezeFB.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "JesterPlushie:jesterinspect",
+			"condition": {
+			"type": "and",
+			"conditions": [ 
+					{
+						"type": "config",
+						"config": "Vanilla Sounds:Jester",
+						"value": true
+					},
+					{
+						"type": "config",
+						"config": "Music:DMCAMusic",
+						"value": true
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Jester/JesterPlushSqueezeV1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/JesterPlushSqueezeV2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Lootbugplush:Yipeebugsqueeze",
+			"condition": {
+			"type": "and",
+			"conditions": [ 
+					{
+						"type": "config",
+						"config": "Vanilla Sounds:Hoarder",
+						"value": true
+					},
+					{
+						"type": "not",
+						"condition": {
+							"type": "mod_installed",
+							"value": "sunnobunno.YippeeMod",
+						}
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter1-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter2-var4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Hoarder/Chitter3-var4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Lootbugplush:Yipeebugsqueeze",
+			"condition": {
+			"type": "and",
+			"conditions": [ 
+					{
+						"type": "config",
+						"config": "Vanilla Sounds:Hoarder",
+						"value": true
+					},
+					{
+						"type": "mod_installed",
+						"value": "sunnobunno.YippeeMod",
+					}
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/YippeeTalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeTalk4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/YippeeYippee.ogg",
+					"weight": 12
+                }
+            ]
+        },
+        {
+            "matches": "NutCracker:Nut cracker squeeze",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Nutcracker",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerPlushieSqueeze1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerPlushieSqueeze2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Nutcracker/NutcrackerPlushieSqueeze3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Thumper:Thumper squeeze",
+			"condition": {
+			"type": "config",
+			"config": "Vanilla Sounds:Thumper",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Thumper/LongRoar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/LongRoar2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Thumper/ShortRoar1.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

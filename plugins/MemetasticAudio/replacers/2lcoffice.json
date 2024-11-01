@@ -1,0 +1,45 @@
+{
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityLCOffice",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"ElevatorMusic:saferoom_low_wpitch",
+			"ElevatorMusic:shop_low_wpitch",
+			"ElevatorMusic:bossa_lullaby_refiltered"
+			],
+			"condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/LCOElevatorEEK.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"ElevatorSound:ElevatorUp",
+			"ElevatorSound:ElevatorDown"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/LCOElevatorMove3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ElevatorPanel:Audio:ButtonPress1_0",
+            "sounds": [
+                {
+                    "sound": "Compatibility/LCOElevatorButton.ogg"
+                }
+            ]
+        }
+    ]
+}

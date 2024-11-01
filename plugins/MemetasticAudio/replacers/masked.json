@@ -1,0 +1,1082 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Masked",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "*:MaskAttackPlayer",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskAttackPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:MaskFaceLightUp",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskFaceLightUp.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MaskedPlayerEnemy:CreatureSFX:MaskPuke",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Masked/MaskPuke.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:VoiceSFX:MaskLaugh1",
+			    "MaskedPlayerEnemy:VoiceSFX:MaskLaugh2",
+			    "MaskedPlayerEnemy:VoiceSFX:MaskLaugh3",
+			    "MaskedPlayerEnemy:VoiceSFX:Laugh1",
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskLaugh3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Masked/MaskAttackPlayer.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "ComedyMask:MaskLaugh1",
+				"TragedyMask:MaskLaugh1",
+			    "ComedyMask:MaskLaugh2",
+				"TragedyMask:MaskLaugh2",
+			    "ComedyMask:MaskLaugh3",
+				"TragedyMask:MaskLaugh3",
+				"ComedyMask:Laugh1",
+				"ComedyMask:Laugh1_0",
+				"ComedyMask:Laugh2",
+				"TragedyMask:Laugh1",
+				"TragedyMask:Laugh1_0",
+				"TragedyMask:Laugh2"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskLaugh1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskLaugh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskLaugh3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/Laugh3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "StorageCloset:ComedyMask:MaskLaugh1",
+				"StorageCloset:TragedyMask:MaskLaugh1",
+			    "StorageCloset:ComedyMask:MaskLaugh2",
+				"StorageCloset:TragedyMask:MaskLaugh2",
+			    "StorageCloset:ComedyMask:MaskLaugh3",
+				"StorageCloset:TragedyMask:MaskLaugh3",
+				"StorageCloset:ComedyMask:Laugh1",
+				"StorageCloset:ComedyMask:Laugh1_0",
+				"StorageCloset:ComedyMask:Laugh2",
+				"StorageCloset:TragedyMask:Laugh1",
+				"StorageCloset:TragedyMask:Laugh1_0",
+				"StorageCloset:TragedyMask:Laugh2",
+			    "StorageCloset:ComedyMask:MaskCry1",
+				"StorageCloset:TragedyMask:MaskCry1",
+			    "StorageCloset:ComedyMask:MaskCry2",
+				"StorageCloset:TragedyMask:MaskCry2",
+			    "StorageCloset:ComedyMask:MaskCry3",
+				"StorageCloset:TragedyMask:MaskCry3",
+			    "StorageCloset:ComedyMask:MaskCry4",
+				"StorageCloset:TragedyMask:MaskCry4"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskCupboardCry1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCupboardCry2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Items/Scrap/MaskCupboardCry3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCupboardCry4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "ComedyMask:MaskCry1",
+				"TragedyMask:MaskCry1",
+			    "ComedyMask:MaskCry2",
+				"TragedyMask:MaskCry2",
+			    "ComedyMask:MaskCry3",
+				"TragedyMask:MaskCry3",
+			    "ComedyMask:MaskCry4",
+				"TragedyMask:MaskCry4"
+			],
+            "sounds": [
+                {
+                    "sound": "Items/Scrap/MaskCry1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Items/Scrap/MaskCry4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum1",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum2",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum3",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Aluminum1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Aluminum4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [ 
+			    "MaskedPlayerEnemy:MovementSFX:Carpet1",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet2",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet3",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Carpet1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Carpet4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Concrete1",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete2",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete3",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Concrete1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Concrete4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass1",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass2",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass3",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Grass1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Grass4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Gravel1",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel2",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel3",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Gravel1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Gravel1Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel2Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel3Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel4Wet"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Gravel1Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel2Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel3Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Gravel4Wet.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk2",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk3",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/MetalWalk.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/MetalWalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Rock1",
+			    "MaskedPlayerEnemy:MovementSFX:Rock2",
+			    "MaskedPlayerEnemy:MovementSFX:Rock3",
+			    "MaskedPlayerEnemy:MovementSFX:Rock4",
+			    "MaskedPlayerEnemy:MovementSFX:Rock5"
+		    ],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Rock1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Rock5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Snow1",
+			    "MaskedPlayerEnemy:MovementSFX:Snow2",
+			    "MaskedPlayerEnemy:MovementSFX:Snow3",
+			    "MaskedPlayerEnemy:MovementSFX:Snow4"
+		    ],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Snow1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Snow2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Snow3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Snow4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Tile1",
+			    "MaskedPlayerEnemy:MovementSFX:Tile2",
+			    "MaskedPlayerEnemy:MovementSFX:Tile3",
+			    "MaskedPlayerEnemy:MovementSFX:Tile4",
+			    "MaskedPlayerEnemy:MovementSFX:Tile5"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/Tile1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/Tile5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep1",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep2",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep3",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep4"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/WoodStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:WoodB1",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB2",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB3",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB4",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB5",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB6",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB7"
+			],
+			"condition": {
+				"type": "not",
+				"condition": {
+					"type": "LethalCompany:moon_name",
+					"value": "BozorosLevel"
+				}
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Player/WoodStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Player/WoodStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum1",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum2",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum3",
+			    "MaskedPlayerEnemy:MovementSFX:Aluminum4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownAluminum1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownAluminum2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownAluminum3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownAluminum4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [ 
+			    "MaskedPlayerEnemy:MovementSFX:Carpet1",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet2",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet3",
+			    "MaskedPlayerEnemy:MovementSFX:Carpet4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownCarpet1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownCarpet2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownCarpet3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownCarpet4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Concrete1",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete2",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete3",
+			    "MaskedPlayerEnemy:MovementSFX:Concrete4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownConcrete1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownConcrete2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownConcrete3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownConcrete4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass1",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass2",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass3",
+ 			    "MaskedPlayerEnemy:MovementSFX:Grass4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownGrass1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGrass2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGrass3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGrass4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Gravel1",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel2",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel3",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownGravel1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Gravel1Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel2Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel3Wet",
+			    "MaskedPlayerEnemy:MovementSFX:Gravel4Wet"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownGravel1Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel2Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel3Wet.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownGravel4Wet.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk2",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk3",
+			    "MaskedPlayerEnemy:MovementSFX:MetalWalk4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownMetalWalk.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownMetalWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownMetalWalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownMetalWalk4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Rock1",
+			    "MaskedPlayerEnemy:MovementSFX:Rock2",
+			    "MaskedPlayerEnemy:MovementSFX:Rock3",
+			    "MaskedPlayerEnemy:MovementSFX:Rock4",
+			    "MaskedPlayerEnemy:MovementSFX:Rock5"
+		    ],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownRock1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownRock2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownRock3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownRock4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownRock5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Snow1",
+			    "MaskedPlayerEnemy:MovementSFX:Snow2",
+			    "MaskedPlayerEnemy:MovementSFX:Snow3",
+			    "MaskedPlayerEnemy:MovementSFX:Snow4"
+		    ],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownSnow1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownSnow2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownSnow3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownSnow4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:Tile1",
+			    "MaskedPlayerEnemy:MovementSFX:Tile2",
+			    "MaskedPlayerEnemy:MovementSFX:Tile3",
+			    "MaskedPlayerEnemy:MovementSFX:Tile4",
+			    "MaskedPlayerEnemy:MovementSFX:Tile5"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownTile1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownTile2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownTile3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownTile4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownTile5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep1",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep2",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep3",
+			    "MaskedPlayerEnemy:MovementSFX:WoodStep4"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownWoodStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "MaskedPlayerEnemy:MovementSFX:WoodB1",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB2",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB3",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB4",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB5",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB6",
+			    "MaskedPlayerEnemy:MovementSFX:WoodB7"
+			],
+			"condition": {
+			"type": "and",
+			"conditions": [
+					{
+						"type": "LethalCompany:moon_name",
+						"value": "BozorosLevel"
+					},
+					{
+						"type": "config",
+						"config": "Mods:CompatibilityBozoros",
+						"value": true
+					},
+				]
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/ClownWoodStep1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/ClownWoodStep4.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

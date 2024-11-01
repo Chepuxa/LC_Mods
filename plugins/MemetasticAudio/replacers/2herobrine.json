@@ -1,0 +1,155 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityHerobrine",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "Model:AudioSFX:halloween-impact",
+            "sounds": [
+                {
+                    "sound": "Compatibility/HerobrineJumpscare1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare11.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare12.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare13.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineJumpscare14.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"Model:AudioSFX:cave1",
+			"Model:AudioSFX:cave2",
+			"Model:AudioSFX:cave3",
+			"Model:AudioSFX:cave4",
+			"Model:AudioSFX:cave5",
+			"Model:AudioSFX:cave6",
+			"Model:AudioSFX:cave7",
+			"Model:AudioSFX:cave8",
+			"Model:AudioSFX:cave9",
+			"Model:AudioSFX:cave10",
+			"Model:AudioSFX:cave11",
+			"Model:AudioSFX:cave12",
+			"Model:AudioSFX:cave13",
+			"Model:AudioSFX:cave14",
+			"Model:AudioSFX:cave15",
+			"Model:AudioSFX:cave16",
+			"Model:AudioSFX:cave17",
+			"Model:AudioSFX:cave18",
+			"Model:AudioSFX:cave19"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Ambience/Creak1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Ambience/Creak11.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DeathAudio:steve_death_1",
+            "sounds": [
+                {
+                    "sound": "Compatibility/HerobrineDeathDuudsonit.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/HerobrineDeathSteve.ogg",
+					"weight": 12
+                }
+            ]
+        }
+    ]
+}

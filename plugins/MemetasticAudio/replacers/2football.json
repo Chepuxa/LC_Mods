@@ -1,0 +1,93 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityFootball",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": [
+			"FootballPref:PlayerFollower:Shirobon - Opia_loop",
+			"FootballPref:PlayerFollower:Shirobon - On The Run_loop",
+			"FootballPref:PlayerFollower:Shirobon - Shibuya_loop",
+			"FootballPref:PlayerFollower:Shirobon - This Love_loop",
+			"FootballPref:PlayerFollower:Shirobon - Fight For You_loop",
+			"FootballPref:PlayerFollower:Shirobon - Pure_loop",
+			"FootballPref:PlayerFollower:Shirobon - My First LSDJ_loop",
+			"FootballPref:PlayerFollower:Shirobon - Chiptuna_loop",
+			"FootballPref:PlayerFollower:FLIPPENDO - Love Is Insecurable REMIX_loop",
+			"FootballPref:PlayerFollower:KENTENSHI - paranoia_loop",
+			"FootballPref:PlayerFollower:Jredd - Blip Shards (DS-10)_loop",
+			"FootballPref:PlayerFollower:Lunar Synthetic - Vex_loop",
+			"FootballPref:PlayerFollower:Kittenji - LSDJ Shop_loop",
+			"FootballPref:PlayerFollower:Lethal Company - Jester Song"
+			],
+	        "condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/FootballMusicSpaceBoy.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicGAS.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicDejaVu.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicNightOfFire.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicDancing.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicRunningInThe90s.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicDontStopTheMusic.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Compatibility/FootballMusicNightOfSecrets.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "FootballPref:plok",
+            "sounds": [
+                {
+                    "sound": "Compatibility/FootballQuestion.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FootballPref:rightanswer",
+            "sounds": [
+                {
+                    "sound": "Compatibility/FootballCorrect.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FootballPref:wrong",
+            "sounds": [
+                {
+                    "sound": "Compatibility/FootballWrong.ogg"
+                }
+            ]
+        }
+    ]
+}

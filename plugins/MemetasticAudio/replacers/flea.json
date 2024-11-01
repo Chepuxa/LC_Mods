@@ -1,0 +1,373 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Flea",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "CentipedeModel:CentipedeWalk",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltMovement1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltMovement2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltMovement3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:ClingToPlayer",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltCling.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ClingToPlayer2DSFX:ClingToPlayerLocal",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltClingLocal.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:DeathShriek",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDeath1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDeath2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDeath3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDeath4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltStartDrop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise2",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltRise.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:monsterNoiseB",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltUnknown.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:SlamGround",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitGround1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitGround2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitGround3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "VoiceSFX:Shriek1",
+                "VoiceSFX:Shriek2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit1.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit2.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit3.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit4.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit5.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHit6.ogg",
+					"weight": 6
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitLine1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitLine2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitLine3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitLine4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltHitLine5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CentipedeModel:Shriek1",
+                "CentipedeModel:Shriek2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/FleaAltDropTalk7.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:CentipedeWalk",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/CentipedeWalk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:ClingToPlayer",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/ClingToPlayer.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ClingToPlayer2DSFX:ClingToPlayerLocal",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/ClingToPlayerLocal.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:DeathShriek",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/DeathShriek.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoise.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CentipedeModel:monsterNoise2",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoise2-risetoceiling.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceSFX:monsterNoiseB",
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/monsterNoiseB.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "VoiceSFX:Shriek1",
+                "VoiceSFX:Shriek2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Flea/Shriek1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Flea/Shriek2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CentipedeModel:Shriek1",
+                "CentipedeModel:Shriek2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Alternatives:Flea",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Misc/Silence.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,252 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Fox",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "MatingCallSFXFar:BWCall3Far",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCallFar1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCallFar2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"CreatureSFX:BWStep1",
+			"CreatureSFX:BWStep2",
+			"CreatureSFX:BWStep3",
+			"CreatureSFX:BWStep4",
+			"CreatureSFX:BWStep5",
+			"CreatureSFX:BWStep6",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfWalk1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfWalk2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfWalk3.ogg",
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "MatingCallSFXFar:BWCall4Far",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCallFar3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCallFar4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MatingCallSFX:BWCall3",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCall1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCall2.ogg",
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "MatingCallSFX:BWCall4",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCall3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeCall4.ogg",
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "CreatureVoice:BushWolfTongueShoot",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfFireTongue.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:BWGrowlDragging1",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeGrowlLoop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"GrowlSFX:BWGrowl",
+			"GrowlSFX:BWGrowl2",
+			"GrowlSFX:BWGrowl3",
+			"GrowlSFX:BWGrowl4",
+			"GrowlSFX:BWGrowl5",
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeGrowl1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeGrowl2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSniff1.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSniff2.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSniff3.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSniff4.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSniff5.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSnort1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeSnort2.ogg",
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "CreatureVoice:HitBushWolf",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeHit.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:BushWolfDie",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Fox/BushWolfGabeDie.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "GrowlSFX:BushWolfKill",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Blyat.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Caleb.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-CJ.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-CSGO.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Doge.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Fan.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Fort.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-GTA.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-HL.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-kidow.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-oof.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-owch.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloLaugh.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloScream.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-PeloScream2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Steve.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-TF2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Toad.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Tom.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Jester/KillPlayer-Undertale.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

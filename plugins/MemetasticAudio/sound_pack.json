@@ -1,0 +1,218 @@
+{
+	"name": "Memetastic",
+	"load_on_startup": ["menu","v50intro"],
+    "config": {
+        "Music:ChaseMusic": {
+            "description": "Change stress/panic sound?",
+            "default": true
+        },
+        "Music:DMCAMusic": {
+            "description": "Disable copyrighted music?",
+            "default": false
+        },
+        "Music:MusicAmbience": {
+            "description": "Change ambient music?",
+            "default": true
+        },
+        "Alternatives:Flea": {
+            "description": "Which Snare Flea sound to use? (True = New | False = Old)",
+            "default": true
+        },
+        "Vanilla Sounds:Menu": {
+            "description": "Change menu sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Company": {
+            "description": "Change Company building sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Inside": {
+            "description": "Change dungeon interior sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Ship": {
+            "description": "Change ship sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:ShipLight": {
+            "description": "Enable ship light squeak sound?",
+            "default": true
+        },
+        "Vanilla Sounds:Decor": {
+            "description": "Change ship decoration sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Dropship": {
+            "description": "Change dropship sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Player": {
+            "description": "Change player sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:PlayerDeath": {
+            "description": "Add memes to death sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Items": {
+            "description": "Change vanilla item sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Weather": {
+            "description": "Change outside weather sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Ambience": {
+            "description": "Change ambience sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityEGypt": {
+            "description": "Change sounds of custom moon EGypt?",
+            "default": true
+        },
+        "Mods:CompatibilityBozoros": {
+            "description": "Change sounds of custom moon Bozoros? (Circus)",
+            "default": true
+        },
+        "Mods:CompatibilityGnomes": {
+            "description": "Change Gnomes mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityDiversity": {
+            "description": "Change Diversity mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityFootball": {
+            "description": "Change Football mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityHauntedHarpist": {
+            "description": "Change Haunted Harpist mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityHerobrine": {
+            "description": "Change Herobrine mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityLCOffice": {
+            "description": "Change LC_Office mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityLethalThings": {
+            "description": "Change Lethal Things mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityLocker": {
+            "description": "Change Locker mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityMeltdown": {
+            "description": "Change Facility Meltdown mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityMimics": {
+            "description": "Change Mimics mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityNeedyCats": {
+            "description": "Change Needy Cats mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityRollingGiant": {
+            "description": "Change Rolling Giant mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilityPlushies": {
+            "description": "Change Monster Plushies mod sounds?",
+            "default": true
+        },
+        "Mods:CompatibilitySpecimenRed": {
+            "description": "Change Redwood Giant modded monster sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Baboon": {
+            "description": "Change Baboon Hawk sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Butler": {
+            "description": "Change Butler sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Bracken": {
+            "description": "Change Bracken sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:CoilHead": {
+            "description": "Change Coil-Head sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Dog": {
+            "description": "Change Eyeless Dog sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Fox": {
+            "description": "Change Kidnapper Fox sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Dweller": {
+            "description": "Change Cave Dweller sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Flea": {
+            "description": "Change Snare Flea sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Giant": {
+            "description": "Change Forest Giant sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Girl": {
+            "description": "Change Little Girl sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Hoarder": {
+            "description": "Change Hoarding Bug sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Jester": {
+            "description": "Change Jester sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Leviathan": {
+            "description": "Change Earth Leviathan sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Masked": {
+            "description": "Change Masked sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Nutcracker": {
+            "description": "Change Nutcracker sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:OldBird": {
+            "description": "Change Old Bird (RadMech) sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Puffer": {
+            "description": "Change Spore Lizard sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Spider": {
+            "description": "Change Bunker Spider sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Thumper": {
+            "description": "Change Thumper sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:Creatures": {
+            "description": "Change neutral creature sounds?",
+            "default": true
+        },
+        "Vanilla Sounds:NonLiving": {
+            "description": "Change non-alive enemy sounds? (e.g. Turrets, landmines)",
+            "default": true
+        }
+    }
+}

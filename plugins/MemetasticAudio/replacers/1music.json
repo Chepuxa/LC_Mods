@@ -1,0 +1,132 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Music:DMCAMusic",
+    "value": false
+	},
+    "replacements": [
+        {
+            "matches": "*:BellChimeAmbience",
+            "sounds": [
+                {
+                    "sound": "Music/BellChimeAmbience.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:Boombox6QuestionMark",
+            "sounds": [
+                {
+                    "sound": "Music/PlokBeachDiscoball.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HangarDoorAudioSource:HangarDoorOpening",
+            "sounds": [
+                {
+                    "sound": "Music/HangarDoorOpening.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:IcecreamTruckFar",
+            "sounds": [
+                {
+                    "sound": "Music/IcecreamTruckFar.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:IcecreamTruckV2",
+            "sounds": [
+                {
+                    "sound": "Music/IcecreamTruckV2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FarAudio:JackInTheBoxTheme",
+            "sounds": [
+                {
+                    "sound": "Music/JackInTheBoxTheme.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SFXAudio:Pop1",
+            "sounds": [
+                {
+                    "sound": "Music/Pop1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VoiceAudio:Scream1",
+            "sounds": [
+                {
+                    "sound": "Music/Scream1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Menu1",
+            "sounds": [
+                {
+                    "sound": "Music/Menu1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ThrusterAudioClose:JetpackThrust1",
+            "sounds": [
+                {
+                    "sound": "Music/JetpackThrust1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "RecordPlayerContainer:Audio:RecordPlayerJazz",
+            "sounds": [
+                {
+                    "sound": "Music/RecordPlayerJazz.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HornAudio:ShipAlarmHornConstant",
+            "sounds": [
+                {
+                    "sound": "Music/ShipAlarmHornConstant.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HornAudioDistant:ShipAlarmHornConstantDistant",
+            "sounds": [
+                {
+                    "sound": "Music/ShipAlarmHornConstantDistant.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SprayPaintItem:SprayNeedsShaking",
+            "sounds": [
+                {
+                    "sound": "Music/SprayNeedsShaking.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SprayPaintItem:SpraySpraycan",
+            "sounds": [
+                {
+                    "sound": "Music/SpraySpraycan.ogg"
+                }
+            ]
+        }
+    ]
+}

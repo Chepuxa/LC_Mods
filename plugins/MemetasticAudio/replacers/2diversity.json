@@ -1,0 +1,398 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Mods:CompatibilityDiversity",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "AmbienceAudio:ambience",
+	        "condition": {
+            "type": "and",
+            "conditions": [ 
+                    {
+                        "type": "config",
+                        "config": "Vanilla Sounds:Bracken",
+                        "value": true
+                    },
+                    {
+                        "type": "config",
+                    "config": "Music:DMCAMusic",
+                        "value": false
+                    }
+                ]
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityBrackenChaseMusic.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "OneShotSound:brakenScream",
+	        "condition": {
+            "type": "config",
+            "config": "Vanilla Sounds:Bracken",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityBrackenScream1.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Compatibility/DiversityBrackenScream2.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Compatibility/DiversityBrackenScream3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityBrackenScream4.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "Target:you're next",
+	        "condition": {
+            "type": "config",
+            "config": "Vanilla Sounds:Bracken",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityBrackenRadioLine.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Sound:DoorSlam1",
+			    "Sound:DoorSlam2"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityWalkerSlam1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityWalkerSlam2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityWalkerSlam3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityWalkerSlam4.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Walker:glitch:glitch",
+			"condition": {
+            "type": "config",
+            "config": "Music:DMCAMusic",
+            "value": false
+	        },
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityWalkerMusic.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "stairs:MainSource:main",
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityStairsMain.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "stairs:ShortSource:short1",
+			    "stairs:ShortSource:short2",
+			    "stairs:ShortSource:short3"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityStairsVoice1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsVoice2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsVoice3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsVoice4.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsVoice5.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsVoice6.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortGrowl1.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortGrowl2.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortGrowl3.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortGrowl4.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortBreathing.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortGroan.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortFlutter.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortWind1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortWind2.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortBreathingClose.ogg",
+					"weight": 3
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsShortLoud.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "stairs:RumbleSource:Rumble1",
+			    "stairs:RumbleSource:Rumble2"
+			],
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityStairsRumble1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityStairsRumble2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Target:voice_Insert 1",
+			    "Target:voice_Insert 2",
+			    "Target:voice_Insert 3",
+			    "Target:voice_Insert 4",
+			    "Target:voice_Insert 5",
+			    "Target:voice_Insert 6",
+			    "Target:voice_Insert 7",
+			    "Target:voice_Insert 8",
+			    "Target:voice_Insert 9",
+			    "Target:voice_Insert 10",
+			    "Target:voice_Insert 11",
+			    "Target:voice_Insert 12",
+			    "Target:voice_Insert 13",
+			    "Target:voice_Insert 14",
+			    "Target:voice_Insert 15",
+			    "Target:voice_Insert 16",
+			    "Target:voice_Insert 17",
+			    "Target:voice_Insert 18"
+			],
+			"condition": {
+  		    "type": "config",
+  		    "config": "Vanilla Sounds:Girl",
+  		    "value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio11.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio12.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio13.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio14.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio15.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoiceRadio16.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "Sound:voice_Insert 1",
+			    "Sound:voice_Insert 2",
+			    "Sound:voice_Insert 3",
+			    "Sound:voice_Insert 4",
+			    "Sound:voice_Insert 5",
+			    "Sound:voice_Insert 6",
+			    "Sound:voice_Insert 7",
+			    "Sound:voice_Insert 8",
+			    "Sound:voice_Insert 9",
+			    "Sound:voice_Insert 10",
+			    "Sound:voice_Insert 11",
+			    "Sound:voice_Insert 12",
+			    "Sound:voice_Insert 13",
+			    "Sound:voice_Insert 14",
+			    "Sound:voice_Insert 15",
+			    "Sound:voice_Insert 16",
+			    "Sound:voice_Insert 17",
+			    "Sound:voice_Insert 18"
+			],
+			"condition": {
+  		    "type": "config",
+  		    "config": "Vanilla Sounds:Girl",
+  		    "value": true
+			},
+            "sounds": [
+                {
+                    "sound": "Compatibility/DiversityGirlVoice1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice11.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice12.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice13.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice14.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice15.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Compatibility/DiversityGirlVoice16.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}

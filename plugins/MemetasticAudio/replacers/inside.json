@@ -1,0 +1,192 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Inside",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "BigDoor:BigDoorClose",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/BigDoorClose-common.ogg",
+					"weight": 20
+                },
+                {
+                    "sound": "Environment/Inside/BigDoorClose-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Environment/Inside/BigDoorClose-rare2.ogg",
+					"weight": 2
+                }
+            ]
+        },
+        {
+            "matches": "BigDoor:BigDoorOpen",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/SecurityDoorClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ElevatorJingle:ElevatorJingle",
+			"condition": {
+			"type": "config",
+			"config": "Music:DMCAMusic",
+			"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/PortalRadio.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"DoorSound:DoorSlam1",
+			"DoorSound:DoorSlam2",
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorSlam.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BreakerBox:BreakerBoxClose",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/BreakerBoxClose-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Environment/Inside/BreakerBoxClose-rare.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DoorSound:DoorOpen1",
+				"DoorSound:DoorOpen2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorOpen1inverted.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorOpen2inverted.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "DoorSound:DoorClose1",
+				"DoorSound:DoorClose2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorClose1inverted.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorClose2inverted.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DoorLockPickSound:DoorUnlock",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/DoorUnlock.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/DoorUnlock2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Fireplace:FireplaceFire:Fireplace",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/Fireplace.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LargeFanRoom",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/LargeFanRoom.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "*:MetalDoorShut1",
+			    "*:MetalDoorShut1 1",
+				"*:MetalDoorShut2"
+			],
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/MetalDoorShut1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Environment/Inside/MetalDoorShut2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentCrawl1",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/VentCrawl1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:NutcrackerVentCrawl",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/VentCrawlNutcracker.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentOpen1",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/VentOpen1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:SpikeRoofSlam",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/RoofTrapSlam.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreakingSFX:SpikeRoofTrapCreak",
+            "sounds": [
+                {
+                    "sound": "Environment/Inside/RoofTrapAmbience.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "randomness": {
+        "type": "deterministic"
+    },
+	"condition": {
+    "type": "config",
+    "config": "Vanilla Sounds:Creatures",
+    "value": true
+	},
+    "replacements": [
+        {
+            "matches": "AngrySFX:BeesAngry",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bees/BeesAngry4_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bees/BeesAngry4_2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "DefendingSFX:BeesDefensive",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bees/BeesDefensive4_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bees/BeesDefensive4_2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "IdleSFX:BeeHiveIdle",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Bees/BeesIdle4_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bees/BeesIdle4_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Bees/BeesIdle4_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:Leap1",
+			"*:Leap2",
+			"*:Leap3"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeJump1.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeJump2.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeJump3.ogg",
+					"weight": 10
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeJumpS.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:FlowerSnakeScurry",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeWalking.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:FlapWings",
+			"*:FlapWings2"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeHelicopter1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeHelicopter2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeHelicopter3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:Chuckle1",
+			"*:Chuckle3",
+			"*:Chuckle4",
+			"*:Chuckle5"
+			],
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeVocal1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeVocal2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeVocal3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeVocal4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Tulip/TulipSnakeVocal5.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureSFX:BirdScreech1",
+				"CreatureSFX:BirdScreech2"
+			],  
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/BirdScreech1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/BirdScreech2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "CreatureSFX:DoublewingFlap1",
+				"CreatureSFX:DoublewingFlap2",
+				"CreatureSFX:DoublewingFlap3"
+			], 
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap1-common.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap1-rare.ogg",
+					"weight": 2
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap2.ogg",
+					"weight": 30
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlap3.ogg",
+					"weight": 30
+                }
+            ]
+        },
+        {
+            "matches": "FlappingAudio:DoublewingFlapConstant",
+            "sounds": [
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "Entities/Living/Manticoil/DoublewingFlapConstant-var3.ogg",
+					"weight": 1
+                }
+            ]
+        }
+    ]
+}
