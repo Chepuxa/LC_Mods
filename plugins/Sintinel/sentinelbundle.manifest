@@ -1,0 +1,158 @@
+ManifestFileVersion: 0
+CRC: 3703428816
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9b543cfadf004c8ee5728250dead122
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd7733b511f68656a6c4e9541cd39833
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b9b543cfadf004c8ee5728250dead122
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4cb4391d488ebc94787685e026969929, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+- Class: 114
+  Script: {fileID: 1957246376, guid: b74ddd2da5317ed4cbff788d28de1aa6, type: 3}
+- Class: 114
+  Script: {fileID: -899548176, guid: b74ddd2da5317ed4cbff788d28de1aa6, type: 3}
+- Class: 114
+  Script: {fileID: 1360340876, guid: b74ddd2da5317ed4cbff788d28de1aa6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94756367aa7500f4380151219eef2297, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ef767a1a95f6f7449c98943cad8615f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aeea9753ca14e0040a1c1fa361e65e89, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86037f4ace887414b9da0739b0eadf8b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 164
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: AISearchRoutine
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemyBehaviourState
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.BoolScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.IntScalableSettingValue
+Assets:
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_fire_guns.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_walk_0.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_move_0.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_agro.mp3
+- Assets/LethalCompany/Mods/SentinelMod/tracer_mat.mat
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_crit.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl_arm_right.anim
+- Assets/LethalCompany/Mods/SentinelMod/sentinel_nor1.png
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_gun_loop.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_track_up.anim
+- Assets/LethalCompany/Mods/SentinelMod/trail_smoke.png
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_hurt_2.mp3
+- Assets/LethalCompany/Mods/SentinelMod/SentinelVideo0001.mp4
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_track_down.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_engine.wav
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl_start.anim
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_none.anim
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_idle.anim
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_breakdance.anim
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl_arm_left2.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_walk_1.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_turn_around_quickly.anim
+- Assets/LethalCompany/Mods/SentinelMod/sentinel_mat.mat
+- Assets/LethalCompany/Mods/SentinelMod/MapDotOrange.mat
+- Assets/LethalCompany/Mods/SentinelMod/sentinel_model_v1.fbx
+- Assets/LethalCompany/Mods/SentinelMod/gunfire_mat.mat
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_move_1.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_death.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/SentinelBreakdance.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_gun_impact.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_Action.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_gun_shot.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_dance.anim
+- Assets/LethalCompany/Mods/SentinelMod/bullet_tracer.prefab
+- Assets/LethalCompany/Mods/SentinelMod/bullet_impact_mat.mat
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_death.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_look_right.anim
+- Assets/LethalCompany/Mods/SentinelMod/gunflare.png
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_gun_stop.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl.001.anim
+- Assets/LethalCompany/Mods/SentinelMod/bullet_tracer.png
+- Assets/LethalCompany/Mods/SentinelMod/Sentinel.asset
+- Assets/LethalCompany/Mods/SentinelMod/sentinel_tex1.png
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_gun_start.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_beep.mp3
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl_arm_left.anim
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_hurt_0.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/sentinel_hurt_1.mp3
+- Assets/LethalCompany/Mods/SentinelMod/sfx/BoomboxMusicMammoth.ogg
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_look_left.anim
+- Assets/LethalCompany/Mods/SentinelMod/treadsmoke_mat.mat
+- Assets/LethalCompany/Mods/SentinelMod/Sentinel.prefab
+- Assets/LethalCompany/Mods/SentinelMod/SentinalAnimCont.controller
+- Assets/LethalCompany/Mods/SentinelMod/SentinelTerminal.asset
+- Assets/LethalCompany/Mods/SentinelMod/sfx/BoomboxMusicRoboParty.mp3
+- Assets/LethalCompany/Mods/SentinelMod/bullet_impact.png
+- Assets/LethalCompany/Mods/SentinelMod/Animations/sentinel_crawl_stop.anim
+Dependencies: []
