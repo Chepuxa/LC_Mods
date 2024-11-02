@@ -4,5 +4,5 @@ set gitdir=..\%dirName%
 set path=%gitdir%\cmd;%path%
 git fetch --all
 git reset --hard
-git pull origin main
+git pull origin main --force
 pause
