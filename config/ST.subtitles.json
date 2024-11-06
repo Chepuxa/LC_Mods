@@ -1,0 +1,86 @@
+{
+  "survival_game": [
+    {
+      "timestamp": 0,
+      // Hello worker
+      "text": "Bonjour travailleur"
+    },
+    {
+      "timestamp": 1.2,
+      // Until now
+      "text": "Jusqu'à maintenant"
+    },
+    {
+      "timestamp": 2.15,
+      // you have shown cowardice in crucial moments
+      "text": "vous avez fait preuve de lâcheté dans les moments cruciaux"
+    },
+    {
+      "timestamp": 4.56,
+      // abandoning those who relied on you and avoiding your responsibilities
+      "text": "abandonnant ceux qui comptaient sur vous et évitant vos responsabilités"
+    },
+    {
+      "timestamp": 9.05,
+      // You now find yourself in a sealed room
+      "text": "Vous vous trouvez maintenant dans une pièce scellée"
+    },
+    {
+      "timestamp": 11.65,
+      // faced with a test of bravery
+      "text": "et vous êtes confronté à une épreuve de bravoure"
+    },
+    {
+      "timestamp": 13.84,
+      // Terrifying and unpredictable creatures
+      "text": "Des créatures terrifiantes et imprévisibles"
+    },
+    {
+      "timestamp": 16.69,
+      // have been released here
+      "text": "ont été relâchées ici"
+    },
+    {
+      "timestamp": 18.11,
+      // If you manage to survive until the end of the allotted time
+      "text": "Si vous parvenez à survivre jusqu'à la fin du temps imparti"
+    },
+    {
+      "timestamp": 21.46,
+      // you will have overcome your own cowardice and proven
+      "text": "vous aurez surmonté votre propre lâcheté et prouvé"
+    },
+    {
+      "timestamp": 24.47,
+      // that you are capable of standing firm in critical moments
+      "text": "que vous êtes capable de vous affirmer dans les moments critiques"
+    },
+    {
+      "timestamp": 28.6,
+      // Let the game begin
+      "text": "Que le jeu commence"
+    }
+  ],
+  "billy_announcement": [
+    {
+      "timestamp": 0,
+      // Congratulations
+      "text": "Félicitations"
+    },
+    {
+      "timestamp": 1.37,
+      // you've survived
+      "text": "vous avez survécu"
+    },
+    {
+      "timestamp": 2.71,
+      // Today, you have emerged from this trial changed
+      "text": "Aujourd'hui, vous êtes sorti de cette épreuve changé"
+    },
+    {
+      "timestamp": 6.13,
+      // But remember... life is made of choices
+      "text": "Mais rappelez-vous… la vie est faite de choix"
+    }
+  ]
+}
