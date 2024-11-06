@@ -1,2 +1,5 @@
 *.lethalbundle filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+/plugins/BadAssCompany/assetbundles filter=lfs diff=lfs merge=lfs -text
+plugins/BadAssCompany/assetbundles/* filter=lfs diff=lfs merge=lfs -text
+plugins/BadAssCompany/assetbundles/**/* filter=lfs diff=lfs merge=lfs -text
